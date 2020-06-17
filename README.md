@@ -1,0 +1,2 @@
+# COVID-19-Digital-Contact-Tracing-and-Geospatial-Technologies-and-Privacy
+This project assesses the technological limits of digital contact tracing technologies, examines when they are likely to be most effective, and considers some of their privacy implications. We hope the data and publications contained here will contribute to an informed public debate about the role DCTT play during different phases of the pandemic. This project is funded by the U.S. National Science Foundation Award BCS-202203
