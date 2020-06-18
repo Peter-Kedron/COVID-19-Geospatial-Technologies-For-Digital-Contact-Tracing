@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>COVID-19 DCTT</title>
+    <link>/</link>
+    <description>Recent content on COVID-19 DCTT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>June 18th Update</title>
+      <link>/post/june-18th-update/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/june-18th-update/</guid>
+      <description>Changes Example changelog post.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>COVID-19 Digital Contact Tracing and Geospatial Technologies and Privacy This project assesses the technological limits of digital contact tracing technologies, examines when they are likely to be most effective, and considers some of their privacy implications. We hope the data and publications contained here will contribute to an informed public debate about the role DCTT play during different phases of the pandemic. This project is funded by the U.</description>
+    </item>
+    
+    <item>
+      <title>Analysis</title>
+      <link>/analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/analysis/</guid>
+      <description>Share any analyses here.</description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>/data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/data/</guid>
+      <description>Display our data here.</description>
+    </item>
+    
+  </channel>
+</rss>
