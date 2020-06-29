@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>COVID-19 DCTT</title>
+    <title>Contact Tracing!!</title>
     <link>/</link>
-    <description>Recent content on COVID-19 DCTT</description>
+    <description>Recent content on Contact Tracing!!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate>
@@ -26,7 +26,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>COVID-19 Digital Contact Tracing and Geospatial Technologies and Privacy This project assesses the technological limits of digital contact tracing technologies, examines when they are likely to be most effective, and considers some of their privacy implications. We hope the data and publications contained here will contribute to an informed public debate about the role DCTT play during different phases of the pandemic. This project is funded by the U.</description>
+      <description>Location Tracking, Contact Tracing, and Geospatial Privacy of COVID-19 We are creating a database of the digital contact tracing technologies (DCTT) being used by public health authorities (PHA) in the United States to respond to the spread of SARS-COV-2, the virus responsible for COVID-19. While we collect data on many aspects of each individual DCTT, we are particularly interested in the geospatial technologies used in these systems, the location data they produce, and how that data is managed, stored, transferred, and shared.</description>
     </item>
     
     <item>

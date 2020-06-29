@@ -7,8 +7,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-We are creating a database of the digital contact tracing technologies (DCTT) being used by public health authorities (PHA) in the United States to respond to the spread of SARS-COV-2, the virus responsible for COVID-19.  While we are collecting data on many aspects of each individual DCTT, we are particularly interested in the geospatial technologies used in these systems, the location data they produce, and how that data is managed, stored, transferred, and shared. 
-
-Our project team uses this data to **assess the technological limits of DCTT, consider their privacy implications, and examine when they are likely to be most effective**. We hope the data and publications contained here will contribute to an informed public debate about the role DCTT can play during different phases of the pandemic. 
+# Location Tracking, Contact Tracing, and Geospatial Privacy of COVID-19
+We are creating a database of the digital contact tracing technologies (DCTT) being used by public health authorities (PHA) in the United States to respond to the spread of SARS-COV-2, the virus responsible for COVID-19.  While we collect data on many aspects of each individual DCTT, we are particularly interested in the geospatial technologies used in these systems, the location data they produce, and how that data is managed, stored, transferred, and shared. Our project team uses this data to **assess the technological limits of DCTT, consider their privacy implications, and examine when they are likely to be most effective**. We hope the data and publications contained here will contribute to an informed public debate about the role DCTT can play during different phases of the pandemic. 
 
 This project is funded by the [U.S. National Science Foundation Award BCS-2032203](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2032203).
