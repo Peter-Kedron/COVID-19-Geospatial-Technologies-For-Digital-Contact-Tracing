@@ -3,12 +3,12 @@ relativeurls = true
 publishDir = "../docs/"
 languageCode = "en-us"
 theme = "minimal"
-title = "COVID-19 DCTT"
+title = "Contact Tracing"
 #disqusShortname = "username" # delete this to disable disqus comments
 #googleAnalytics = ""
 
 [params]
-    description = "COVID-19 Digital Contact Tracing and Geospatial Technologies and Privacy"
+    description = "Location Tracking, Contact Tracing, and Geospatial Privacy During COVID-19"
     githubUsername = "#"
     accent = "maroon"
     showBorder = true
