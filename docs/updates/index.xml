@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates on Contact Tracing</title>
+    <link>/updates/</link>
+    <description>Recent content in Updates on Contact Tracing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/updates/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>June 18th Update</title>
+      <link>/updates/june-18th-update/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/updates/june-18th-update/</guid>
+      <description>Changes Example changelog post.</description>
+    </item>
+    
+  </channel>
+</rss>
