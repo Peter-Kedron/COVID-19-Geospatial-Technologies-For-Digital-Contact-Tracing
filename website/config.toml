@@ -34,8 +34,8 @@ title = "Contact Tracing"
     weight = 3
     
 [[menu.main]]
-    url = "/data/"
-    name = "Data"
+    url = "/statestatus/"
+    name = "State Status"
     weight = 4
     
 [[menu.main]]
