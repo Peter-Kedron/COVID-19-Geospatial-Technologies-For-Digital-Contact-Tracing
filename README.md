@@ -4,10 +4,11 @@ We are creating a database of the digital contact tracing technologies (DCTT) be
 This project is funded by the [U.S. National Science Foundation Award BCS-2032203](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2032203).
 
 ## Project Directory Hierarchy
-- Data: Regularly updated data files - State DCTT Information, DCTT Technical Details   
+- Data: regularly updated data files - State DCTT Information, DCTT Technical Details   
+- Publications: white papers, pre-prints, and other documents
+- Protocols: overview, protocols, and metadata 
+- Website: source code and scripts for the website 
 - Docs: Blogdown website (GitHub pages uses this directory to display the site)
-- Scripts: R analysis scripts or other source code
-- Website: source code for the website
 
 ## Dependencies
 - Blogdown is needed to generate the static website
