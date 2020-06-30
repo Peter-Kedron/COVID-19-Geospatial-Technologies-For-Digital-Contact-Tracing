@@ -3,7 +3,7 @@ relativeurls = true
 publishDir = "../docs/"
 languageCode = "en-us"
 theme = "minimal"
-title = "Contact Tracing!!"
+title = "Contact Tracing"
 #disqusShortname = "username" # delete this to disable disqus comments
 #googleAnalytics = ""
 
@@ -29,8 +29,8 @@ title = "Contact Tracing!!"
     weight = 2
 
 [[menu.main]]
-    url = "/post/"
-    name = "Changelog"
+    url = "/updates/"
+    name = "Updates"
     weight = 3
     
 [[menu.main]]
@@ -39,12 +39,12 @@ title = "Contact Tracing!!"
     weight = 4
     
 [[menu.main]]
-    url = "/analysis/"
-    name = "Analysis"
+    url = "/technologies/"
+    name = "Technologies"
     weight = 5
     
 [[menu.main]]
-    url = "https://github.com/Peter-Kedron/COVID-19-Digital-Contact-Tracing-and-Geospatial-Technologies-and-Privacy"
+    url = "https://github.com/Peter-Kedron/COVID-19-Geospatial-Technologies-For-Digital-Contact-Tracing"
     name = "GitHub"
     weight = 6
 
@@ -58,6 +58,6 @@ title = "Contact Tracing!!"
 # The list of available icons can be found at http://fontawesome.io/icons.
 
 #[[menu.icon]]
-#    url = "https://github.com/Peter-Kedron/COVID-19-Digital-Contact-Tracing-and-Geospatial-Technologies-and-Privacy"
+#    url = "https://github.com/Peter-Kedron/COVID-19-Geospatial-Technologies-For-Digital-Contact-Tracing"
 #    name = "github"
 #    weight = 1
