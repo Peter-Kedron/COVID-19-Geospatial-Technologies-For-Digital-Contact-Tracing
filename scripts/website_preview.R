@@ -6,11 +6,8 @@
 # continuously rebuild if changes are made; only needs to be run once while
 # working on site.
 
+library(here)
+
 blogdown::stop_server()
-current_dir = getwd()
-
-if(grepl("website", current_dir, fixed = TRUE) != TRUE) {
-  setwd("./website")
-}
-
+setwd(here("website"))
 blogdown::serve_site()
