@@ -1,18 +1,19 @@
-# Example interactive map using sf and tmap
+# Interactive map that provides an overview of current state status
 
-library(sf)
-library(tmap)
 library(here)
+library(plotly)
 
-us_states<-read_sf(here("data", "us_states_shape", "cb_2018_us_state_20m.shp"))
-us_dctt_data<-read.csv(here("data", "state_dctt_data.csv"))
-us_states_data<-merge(us_states, us_dctt_data, by = "NAME")
+state_data <- read.csv(here("data", "state_dctt_data.csv"))
+state_data$map_hover_text <- with(state_data, paste("<b>", NAME, "</b>", "<br>", "Using DCTT:", DCTT_STATUS, "<br>", "Application Name:", APP_NAME, "<br>", "Technology:", TECHNOLOGY))
 
-map<-tm_shape(us_states_data) + 
-  tm_polygons("DCTT", palette = "BuGn", title = "Using a DCTT", popup.vars = c("DCTT", "APP_NAME", "TECHNOLOGY")) +
-  tm_scale_bar(breaks = c(0, 100, 200), text.size = 1) + 
-  tm_minimap() + 
-  tm_view(set.view = c(-120, 53, 3)) + 
-  tmap_mode("view")
+map_settings <- list(scope = 'usa', projection = list(type = 'albers usa'), showlakes = FALSE)
+
+color_scale <- data.frame(z = c(0, 0.5, 0.5, 1), col = c("#b3cde3", "#b3cde3", "#ccebc5", "#ccebc5"))
+#margins <- list(l = 0, r = 0, b = 0, t = 50, pad = 1)
+
+map <- plot_geo(state_data, locationmode = "USA-states", name = "\n", colorscale = color_scale, width = 1000, height = 600)
+map <- map %>% add_trace(z = ~DCTT_STATUS_NUM, locations = ~ABRV, hovertemplate = ~map_hover_text, color = ~DCTT_STATUS_NUM, colors = c("#b3cde3","#ccebc5"), showscale = TRUE)
+map <- map %>% colorbar(title = list(text = "Using DCTT", font = list(size = 15)), tickmode = "array", tickvals = list(0.75, 0.25), ticktext = list("True", "False"), ticks = "", thickness = 15, len = 0.15)
+map <- map %>% layout(title = "COVID-19 Digital Contact Tracing Technology (DCTT) Status", geo = map_settings)
 
 map
