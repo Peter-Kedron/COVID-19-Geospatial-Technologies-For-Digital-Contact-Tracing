@@ -7,3 +7,11 @@ output: html_document
 
 ```{r code = readLines("../../scripts/us_overview_map.R"), echo = FALSE, message = FALSE, warning = FALSE}
 ```
+
+## Data Table
+```{r echo = FALSE, message = FALSE, warning = FALSE}
+library(DT)
+library(here)
+data_table = read.csv(here("data", "state_dctt_data.csv"))
+datatable(data_table)
+```
