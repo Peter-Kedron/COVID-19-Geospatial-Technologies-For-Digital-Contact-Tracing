@@ -8,5 +8,4 @@ blogdown::install_hugo()
 install.packages("here")
 
 # Interactive map
-install.packages("sf")
-install.packages("tmap")
+install.packages("plotly")
