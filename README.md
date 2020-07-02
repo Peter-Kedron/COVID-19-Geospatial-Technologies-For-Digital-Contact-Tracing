@@ -12,4 +12,4 @@ This project is funded by the [U.S. National Science Foundation Award BCS-203220
 
 ## Dependencies
 - Blogdown is needed to generate the static website
-- (optional) RStudio to open project files; project file for the website contains build configuration
+- (optional) RStudio to open project file
