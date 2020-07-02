@@ -6,9 +6,19 @@
     <description>Recent content in Categories on Contact Tracing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 02 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>website</title>
+      <link>/categories/website/</link>
+      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/website/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

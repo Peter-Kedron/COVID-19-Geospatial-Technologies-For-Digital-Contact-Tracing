@@ -6,18 +6,19 @@
     <description>Recent content on Contact Tracing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>June 18th Update</title>
-      <link>/updates/june-18th-update/</link>
-      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      <title>Project Website Launched</title>
+      <link>/updates/project-website-launched/</link>
+      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/updates/june-18th-update/</guid>
-      <description>Changes Example changelog post.</description>
+      <guid>/updates/project-website-launched/</guid>
+      <description>The website for the Location Tracking, Contact Tracing, and Geospatial Privacy of COVID-19 project is now live. The Project GitHub Repository is also available. We will soon be adding a range of project materials to that site.
+Our work is funded by the U.S. National Science Foundation Award BCS-2032203. We hope the data and publications contained here will contribute to an informed public debate about the role DCTT can play during different phases of the pandemic.</description>
     </item>
     
     <item>
@@ -35,8 +36,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/statestatus/</guid>
-      <description>Overview Map  {&#34;x&#34;:{&#34;visdat&#34;:{&#34;32ac27ef90cc&#34;:[&#34;function () &#34;,&#34;plotlyVisDat&#34;]},&#34;cur_data&#34;:&#34;32ac27ef90cc&#34;,&#34;attrs&#34;:{&#34;32ac27ef90cc&#34;:{&#34;locationmode&#34;:&#34;USA-states&#34;,&#34;colorscale&#34;:[{&#34;z&#34;:0,&#34;col&#34;:&#34;#b3cde3&#34;},{&#34;z&#34;:0.5,&#34;col&#34;:&#34;#b3cde3&#34;},{&#34;z&#34;:0.5,&#34;col&#34;:&#34;#ccebc5&#34;},{&#34;z&#34;:1,&#34;col&#34;:&#34;#ccebc5&#34;}],&#34;name&#34;:&#34;
-&#34;,&#34;alpha_stroke&#34;:1,&#34;sizes&#34;:[10,100],&#34;spans&#34;:[1,20],&#34;z&#34;:{},&#34;locations&#34;:{},&#34;hovertemplate&#34;:{},&#34;color&#34;:{},&#34;colors&#34;:[&#34;#b3cde3&#34;,&#34;#ccebc5&#34;],&#34;showscale&#34;:true,&#34;inherit&#34;:true}},&#34;layout&#34;:{&#34;width&#34;:1000,&#34;height&#34;:600,&#34;margin&#34;:{&#34;b&#34;:40,&#34;l&#34;:60,&#34;t&#34;:25,&#34;r&#34;:10},&#34;mapType&#34;:&#34;geo&#34;,&#34;scene&#34;:{&#34;zaxis&#34;:{&#34;title&#34;:&#34;DCTT_STATUS_NUM&#34;}},&#34;geo&#34;:{&#34;domain&#34;:{&#34;x&#34;:[0,1],&#34;y&#34;:[0,1]},&#34;scope&#34;:&#34;usa&#34;,&#34;projection&#34;:{&#34;type&#34;:&#34;albers usa&#34;},&#34;showlakes&#34;:false},&#34;hovermode&#34;:&#34;closest&#34;,&#34;showlegend&#34;:false,&#34;legend&#34;:{&#34;yanchor&#34;:&#34;top&#34;,&#34;y&#34;:0.5},&#34;title&#34;:&#34;COVID-19 Digital Contact Tracing Technology (DCTT) Status&#34;},&#34;source&#34;:&#34;A&#34;,&#34;config&#34;:{&#34;showSendToCloud&#34;:false},&#34;data&#34;:[{&#34;colorbar&#34;:{&#34;title&#34;:{&#34;text&#34;:&#34;Using DCTT&#34;,&#34;font&#34;:{&#34;size&#34;:15}},&#34;ticklen&#34;:2,&#34;len&#34;:0.15,&#34;lenmode&#34;:&#34;fraction&#34;,&#34;y&#34;:1,&#34;yanchor&#34;:&#34;top&#34;,&#34;tickmode&#34;:&#34;array&#34;,&#34;tickvals&#34;:[0.75,0.25],&#34;ticktext&#34;:[&#34;True&#34;,&#34;False&#34;],&#34;ticks&#34;:&#34;&#34;,&#34;thickness&#34;:15},&#34;colorscale&#34;:[[0,&#34;#b3cde3&#34;],[0.5,&#34;#b3cde3&#34;],[0.5,&#34;#ccebc5&#34;],[1,&#34;#ccebc5&#34;]],&#34;showscale&#34;:true,&#34;locationmode&#34;:&#34;USA-states&#34;,&#34;name&#34;:&#34;&#34;,&#34;z&#34;:[1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,1,0,0,1,1,1,0,0,1,0,1,0,0,0,0,0,1,0,0,0],&#34;locations&#34;:[&#34;AL&#34;,&#34;AK&#34;,&#34;AZ&#34;,&#34;AR&#34;,&#34;CA&#34;,&#34;CO&#34;,&#34;CT&#34;,&#34;DE&#34;,&#34;FL&#34;,&#34;GA&#34;,&#34;HI&#34;,&#34;ID&#34;,&#34;IL&#34;,&#34;IN&#34;,&#34;IA&#34;,&#34;KS&#34;,&#34;KY&#34;,&#34;LA&#34;,&#34;ME&#34;,&#34;MD&#34;,&#34;MA&#34;,&#34;MI&#34;,&#34;MN&#34;,&#34;MS&#34;,&#34;MO&#34;,&#34;MT&#34;,&#34;NE&#34;,&#34;NV&#34;,&#34;NH&#34;,&#34;NJ&#34;,&#34;NM&#34;,&#34;NY&#34;,&#34;NC&#34;,&#34;ND&#34;,&#34;OH&#34;,&#34;OK&#34;,&#34;OR&#34;,&#34;PA&#34;,&#34;RI&#34;,&#34;SC&#34;,&#34;SD&#34;,&#34;TN&#34;,&#34;TX&#34;,&#34;UT&#34;,&#34;VT&#34;,&#34;VA&#34;,&#34;WA&#34;,&#34;WV&#34;,&#34;WI&#34;,&#34;WY&#34;,&#34;AS&#34;,&#34;GU&#34;,&#34;MP&#34;,&#34;PR&#34;,&#34;VI&#34;],&#34;hovertemplate&#34;:[&#34; Alabama  Using DCTT: TRUE Application Name: NA Technology: NA&#34;,&#34; Alaska  Using DCTT: FALSE Application Name: NA Technology: NA&#34;,&#34; Arizona  Using DCTT: FALSE Application Name: NA Technology: NA&#34;,&#34; Arkansas  Using DCTT: FALSE Application Name: NA Technology: NA&#34;,&#34; California  Using DCTT: FALSE Application Name: NA Technology: NA&#34;</description>
+      <description>Our project team is tracking how states are using digital contact tracing technologies (DCTT) to respond to COVID-19. The map and table below contain a summary of which states are using which technologies in their response. We will be regularly updating and expanding this information as the project progresses. More information about individual DCTT is available on our Technologies Page or through the Project GitHub Repository and the Project Open Science Framework Page.</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/technologies/</guid>
-      <description>  Digital Contact Tracing Technologies  </description>
+      <description>Digital Contact Tracing Technologies A range of different technologies are now being developed, combined, and deployed to facilitate the tracing of contacts of individuals that have tested positive for COVID-19. These digital contact tracing technologies (DCTT) are a combination of the physical hardware embedded in device (e.g., the GNSS receiver on a mobile device), the software developed to use those devices (e.g., the API and accompanying application on a phone), and the operational protocols the govern these systems (e.</description>
     </item>
     
   </channel>
