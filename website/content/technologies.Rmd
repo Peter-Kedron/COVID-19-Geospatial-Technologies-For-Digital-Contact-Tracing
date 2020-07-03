@@ -1,5 +1,5 @@
 ---
-title: "Technologies"
+title: "Digital Contact Tracing Technologies"
 output: html_document
 ---
 
@@ -7,7 +7,6 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Digital Contact Tracing Technologies
 A range of different technologies are now being developed, combined, and deployed to facilitate the tracing of contacts of individuals that have tested positive for COVID-19. These digital contact tracing technologies (DCTT) are a combination of the physical hardware embedded in device (e.g., the GNSS receiver on a mobile device), the software developed to use those devices (e.g., the API and accompanying application on a phone), and the operational protocols the govern these systems (e.g., institutional decisions about how data is stored, transferred, and shared). How effective DCTT can be in helping to mitigate and suppress the spread of COVID-19 depends on all of these factors, the environments they are deployed in, and how we chose to, or chose not to, integrate them into our response and prevention efforts. 
-￼
-￼Our project team is profiling these technologies and cataloging which technologies and systems are being used where, so we can begin to assess how impactful they may be.  
+
+Our project team is profiling these technologies and cataloging which technologies and systems are being used where, so we can begin to assess how impactful they may be.  

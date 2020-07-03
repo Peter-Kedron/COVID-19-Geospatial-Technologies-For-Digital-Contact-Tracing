@@ -22,12 +22,21 @@ Our work is funded by the U.S. National Science Foundation Award BCS-2032203. We
     </item>
     
     <item>
-      <title>About</title>
+      <title>Digital Contact Tracing Technologies</title>
+      <link>/technologies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/technologies/</guid>
+      <description>A range of different technologies are now being developed, combined, and deployed to facilitate the tracing of contacts of individuals that have tested positive for COVID-19. These digital contact tracing technologies (DCTT) are a combination of the physical hardware embedded in device (e.g., the GNSS receiver on a mobile device), the software developed to use those devices (e.g., the API and accompanying application on a phone), and the operational protocols the govern these systems (e.</description>
+    </item>
+    
+    <item>
+      <title>Location Tracking, Contact Tracing, and Geospatial Privacy of COVID-19</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Location Tracking, Contact Tracing, and Geospatial Privacy of COVID-19 We are creating a database of the digital contact tracing technologies (DCTT) being used by public health authorities (PHA) in the United States to respond to the spread of SARS-COV-2, the virus responsible for COVID-19. While we collect data on many aspects of each individual DCTT, we are particularly interested in the geospatial technologies used in these systems, the location data they produce, and how that data is managed, stored, transferred, and shared.</description>
+      <description>We are creating a database of the digital contact tracing technologies (DCTT) being used by public health authorities (PHA) in the United States to respond to the spread of SARS-COV-2, the virus responsible for COVID-19. While we collect data on many aspects of each individual DCTT, we are particularly interested in the geospatial technologies used in these systems, the location data they produce, and how that data is managed, stored, transferred, and shared.</description>
     </item>
     
     <item>
@@ -37,15 +46,6 @@ Our work is funded by the U.S. National Science Foundation Award BCS-2032203. We
       
       <guid>/statestatus/</guid>
       <description>Our project team is tracking how states are using digital contact tracing technologies (DCTT) to respond to COVID-19. The map and table below contain a summary of which states are using which technologies in their response. We will be regularly updating and expanding this information as the project progresses. More information about individual DCTT is available on our Technologies Page or through the Project GitHub Repository and the Project Open Science Framework Page.</description>
-    </item>
-    
-    <item>
-      <title>Technologies</title>
-      <link>/technologies/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/technologies/</guid>
-      <description>Digital Contact Tracing Technologies A range of different technologies are now being developed, combined, and deployed to facilitate the tracing of contacts of individuals that have tested positive for COVID-19. These digital contact tracing technologies (DCTT) are a combination of the physical hardware embedded in device (e.g., the GNSS receiver on a mobile device), the software developed to use those devices (e.g., the API and accompanying application on a phone), and the operational protocols the govern these systems (e.</description>
     </item>
     
   </channel>
