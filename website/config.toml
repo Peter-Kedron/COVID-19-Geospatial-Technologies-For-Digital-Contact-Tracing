@@ -17,6 +17,7 @@ title = "Contact Tracing"
     highlight = true
     highlightStyle = "default"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    favicon = "favicon.png"
 
 [[menu.main]]
     url = "/"
