@@ -1,56 +1,56 @@
-FIPS,State,Abrv,Review Number,App Planned,App Name,Technology,Developers,Notes,Student Examiner,Source
-1,Alabama,AL,Second,Yes,Under Investigation,Bluetooth,Apple-Google,,,"https://www.al.com/news/2020/05/alabama-balances-privacy-against-accuracy-in-new-contact-tracing-app.html, https://motionmobs.com/what-to-know-about-alabamas-contact-tracing-app/"
-2,Alaska,AK,Second,No,N/A,N/A,N/A,"Using a web application called Commcare to aid in contact tracing measures, no plans to use proximity tracking",,"http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/contacttracing.aspx, https://www.dimagi.com/covid-19/us-response "
-4,Arizona,AZ,Second,No,N/A,N/A,N/A,,,https://directorsblog.health.azdhs.gov/contact-tracing-can-help-public-health-to-slow-the-spread-of-diseases/
-5,Arkansas,AR,Second,No,N/A,N/A,N/A,"No plans for a mobile app; using an automated SARA Alert system that sends daily calls, emails, and texts to contacts",,https://www.healthy.arkansas.gov/programs-services/topics/covid-19-contact-tracing
-6,California,CA,Second,No,N/A,N/A,N/A,No plans to use a mobile app or cell phone tracking,,"https://covid19.ca.gov/contact-tracing/, https://www.gov.ca.gov/2020/05/22/governor-newsom-launches-california-connected-californias-contact-tracing-program-and-public-awareness-campaign/ "
-8,Colorado,CO,Second,No,N/A,N/A,N/A,,,"https://www.colorado.gov/pacific/servecolorado/ContactTracing, https://www.colorado.gov/pacific/servecolorado/news/more-800-americorps-and-senior-corps-members-committed-support-colorado’s-covid-19-response"
-9,Connecticut,CT,Second,No,N/A,N/A,N/A,"No Connecticut-specific app planned, however the state encourags use of the ""How We Feel"" app (which is available throughout the US); automated email and text surveys to cases through ContaCT system",,"https://portal.ct.gov/Coronavirus/ContaCT, https://portal.ct.gov/Office-of-the-Governor/News/Press-Releases/2020/04-2020/Governor-Lamont-Encourages-Connecticut-Residents-to-Use-the-How-We-Feel-App "
-10,Delaware,DE,Second,No,N/A,N/A,N/A,,,"https://coronavirus.delaware.gov/contact-tracing/, https://coronavirus.delaware.gov/wp-content/uploads/sites/177/2020/06/FAQ_-Contact-Tracing_6.24.20.pdf, https://news.delaware.gov/2020/05/12/governor-carney-announces-statewide-contact-tracing-plan-for-covid-19/"
-12,Florida,FL,Second,Undecided,N/A,N/A,N/A,Miami-Dade may join MA Safe Paths initiative out of MIT,,"https://floridahealthcovid19.gov/exposure/, https://www.miamiherald.com/news/coronavirus/article242457386.html"
-13,Georgia,GA,Second,No,N/A,N/A,N/A,,,https://dph.georgia.gov/contact-tracing
-15,Hawaii,HI,Second,No,N/A,N/A,N/A,"No app plans, though cases and contacts can input information about their symptoms in an online survey",,"https://health.hawaii.gov/coronavirusdisease2019/what-you-should-know/what-hdoh-is-doing/, https://health.hawaii.gov/news/newsroom/hawaii-department-of-health-uses-new-digital-tool-to-enhance-contact-tracing-and-monitoring-capacity/ "
-16,Idaho,ID,Second,No,N/A,N/A,N/A,No app plans; using Sara Alert system to allow for self-reporting of symptoms for contacts,,https://www.kmvt.com/content/news/Contact-tracing--570988281.html
-17,Illinois,IL,Second,Yes,Under Investigation,Under Investigation,Under Investigation,"Plan to use an app that provides information and resources to cases and contacts, though not yet available",,"http://dph.illinois.gov/covid19/contact-tracing, https://patch.com/illinois/across-il/illinois-launches-coronavirus-contact-tracing-collaborative, https://www.nbcchicago.com/news/coronavirus/coronavirus-in-illinois-what-contact-tracing-is-and-why-its-so-important/2274192/ "
-18,Indiana,IN,Second,No,N/A,N/A,N/A,,,"https://calendar.in.gov/site/gov/event/gov-holcomb-announces-contact-tracing-plan-for-covid-19-cases/, https://www.indystar.com/story/news/health/2020/05/26/indiana-coronavirus-what-you-need-know-contact-tracing/5240124002/"
-19,Iowa,IA,Second,No,N/A,N/A,N/A,,,https://idph.iowa.gov/Portals/1/userfiles/61/covid19/Coronavirus%20Procedures%2006_19_2020.pdf
-20,Kansas,KS,Second,No,N/A,N/A,N/A,Looking at Apple-Google but unlikely to implement,,"https://ag.ks.gov/media-center/news-releases/2020/06/05/ag-derek-schmidt-kansas-to-protect-privacy-and-civil-liberties-during-covid-19-contact-tracing-by-statute,https://www.kdheks.gov/epi/download/Checklist_for_contact_and_case_investigation.pdf, https://www.kcur.org/news/2020-05-13/kansas-needs-more-people-tracing-covid-19-infections-to-their-source-to-stem-resurgence"
-21,Kentucky,KY,Second,No,N/A,N/A,N/A,,,"https://kentucky.gov/Pages/Activity-stream.aspx?n=GovernorBeshear&prId=171,https://govsite-assets.s3.amazonaws.com/rPsWriwQHSwEEVEuaogg_CTT%20FAQs_06112020.pdff"
-22,Louisiana,LA,Second,No,N/A,N/A,N/A,,,http://ldh.la.gov/index.cfm/page/3957
-23,Maine,ME,Second,No,N/A,N/A,N/A,No app plans; using SARA Alert system,,"https://www.maine.gov/governor/mills/news/maine-expands-contact-tracing-limit-spread-covid-19-2020-05-26, https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/contact-tracing.shtml"
-24,Maryland,MD,Second,No,N/A,N/A,N/A,"No app plans, however the state will use a data management system called ""COVID Link""",,"https://coronavirus.maryland.gov/pages/contact-tracing, https://governor.maryland.gov/2020/05/21/governor-hogan-announces-launch-of-robust-contact-tracing-operation-to-support-local-health-departments/"
-25,Massachusetts,MA,Second,Undecided,N/A,N/A,N/A,,,"https://www.mass.gov/info-details/learn-about-the-community-tracing-collaborative, https://www.mass.gov/doc/mass-ctc-framework-04-2020/download, https://epic.org/2020/05/massachusetts-governor-state-w.html, https://www.govtech.com/civic/Massachusetts-May-Pursue-COVID-19-Contact-Tracing-App.html"
-26,Michigan,MI,Second,No,N/A,N/A,N/A,,,"https://www.michigan.gov/coronavirus/0,9753,7-406-99891_99913---,00.html, https://www.freep.com/story/news/local/michigan/2020/05/02/michigans-coronavirus-contact-tracing-wont-include-smartphone-apps/3054813001/"
-27,Minnesota,MN,Second,No,N/A,N/A,N/A,,,https://www.health.state.mn.us/diseases/coronavirus/tracing.html
-28,Mississippi,MS,Second,No,N/A,N/A,N/A,,,https://www.sunherald.com/news/state/mississippi/article242933406.html
-29,Missouri,MO,Second,No,N/A,N/A,N/A,,,https://www.oneforallmo.com/contact-tracing/
-30,Montana,MT,Second,No,N/A,N/A,N/A,,,https://montanafreepress.org/2020/04/17/how-contact-tracing-slowed-the-spread-in-montana-and-why-getting-the-state-back-to-work-will-require-more-of-it/
-31,Nebraska,NE,Second,No,N/A,N/A,N/A,No plans for a mobile app; state is working with an Omaha-based healthcare research company called PRC to assist with contact tracing,,"https://governor.nebraska.gov/press/gov-ricketts-overviews-contact-tracing-process-proclaims-“hospital-week”-nebraska, https://www.prnewswire.com/news-releases/prc-selected-as-contact-tracing-partner-for-the-state-of-nebraska-301062816.html"
-32,Nevada,NV,Second,Undecided,N/A,N/A,N/A,"Announced a ""digital contact-tracing solution"" in partnership with Deloitte and Salesforce, though no specific details yet revealed",,"http://gov.nv.gov/News/Press/2020/Gov__Sisolak_approves_comprehensive_COVID-19_testing,_contact_tracing_plan,_Interim_Finance_Committee_accepts_grant_funding_to_support_implementation/, https://www.fox5vegas.com/coronavirus/nevada-covid-19-task-force-vetting-apps-for-contact-tracing/article_283fdd20-a176-11ea-9115-533aee7b4662.html"
-33,New Hampshire,NH,Second,No,N/A,N/A,N/A,,,https://www.sentinelsource.com/news/local/contact-tracing-will-be-key-part-of-nh-reopening/article_168f5762-310b-56a5-98ae-3270d427378c.htmll
-34,New Jersey,NJ,Second,No,N/A,N/A,N/A,No app plans; using CommCare system developed by DiMagi for information database to help contact tracing effort,,"https://covid19.nj.gov/faqs/nj-information/symptoms-tests-and-treatment/what-is-contact-tracing-how-does-it-stop-the-spread-of-covid-19, https://nj.gov/governor/news/news/562020/approved/20200512a.shtml"
-35,New Mexico,NM,Second,No,N/A,N/A,N/A,No plans announced for a mobile app; state is working with software company Accenture to potentially develop automated text alerts,,https://www.krqe.com/health/coronavirus-new-mexico/new-mexico-testing-technology-to-help-with-covid-19-contact-tracing/
-36,New York,NY,Second,Undecided,N/A,N/A,Vital Strategies,"State has partnered with Bloomberg Philanthropies and Vital Strategies to develop a contact tracing program, though not revealed whether it will be an app or some other technology",,"https://coronavirus.health.ny.gov/new-york-state-contact-tracing#how-the-contact-tracing-program-works, https://www.cnbc.com/2020/04/30/former-nyc-mayor-bloomberg-is-developing-mobile-apps-to-help-new-york-state-trace-coronavirus-cases.html"
-37,North Carolina,NC,Second,No,N/A,N/A,N/A,No mobile app planned; using software called the COVID-19 Community Team Outreach Tool to manage cases and contacts' information,,https://covid19.ncdhhs.gov/about-covid-19/contact-tracing
-38,North Dakota,ND,Second,Yes,Care19,"GPS, Bluetooth",ProudCrowd,"Using a mobile app to track users' location for use in contact tracing, Digital log that can be entered manually or determined via GPS.  User allows sharing with agency.",,https://ndresponse.gov/covid-19-resources/care19
-39,Ohio,OH,Second,No,N/A,N/A,N/A,,,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/responsible-restart-ohio/Contact-Tracing/Contact-Tracing
-40,Oklahoma,OK,Second,No,N/A,N/A,N/A,"App for directing individuals reporting symptoms to testing facilities, no location info",,"https://coronavirus.health.ok.gov/contact-tracing-0, https://coronavirus.health.ok.gov/sites/g/files/gmc786/f/060120-contact_tracing_overview-eng.pdf, https://www.govtech.com/futureready/news/Cloud-Powers-Oklahomas-COVID-Response.html?promo_code=article"
-41,Oregon,OR,Second,Yes,Under Investigation,Under Investigation,Under Investigation,App is mentioned in May 2020 Oregon Health Authority strategy plan,,"https://govstatus.egov.com/OR-OHA-Contact-Collaborative, https://sharedsystems.dhsoha.state.or.us/DHSForms/Served/le2347.pdf, https://www.kgw.com/article/news/oregon-ag-pushes-for-secure-covid-19-apps/283-17691215-b727-4f9d-8c3c-4e05a0acbde5, https://sharedsystems.dhsoha.state.or.us/DHSForms/Served/le2327.pdf"
-42,Pennsylvania,PA,Second,Undecided,N/A,N/A,N/A,May implement bluetooth proximity tracking technology in the future; currently using SARA Alert system,,https://www.health.pa.gov/topics/disease/coronavirus/Pages/Contact-Tracing-Plan.aspx
-44,Rhode Island,RI,Second,Yes,CRUSH COVID RI,"GPS, Bluetooth",InfoSys,Implementing an app to track locations that users visit through GPS and Bluetooth,,"https://health.ri.gov/covid/crush/, https://www.infosys.com/newsroom/press-releases/2020/partners-fight-against-covid19.html"
-45,South Carolina,SC,Second,Yes,Under Investigation,Bluetooth,Apple-Google,Planning to utilize Apple-Google technology to track and notify contacts,,"https://scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/covid-19-contact-tracing, https://www.sc.edu/uofsc/posts/2020/05/covid_sc_contact_tracing.php#.Xv5-ci2z2qB"
-46,South Dakota,SD,Second,Yes,Care19,"GPS, Bluetooth",ProudCrowd,"Using a mobile app to log locations that users have visited, Digital log that can be entered manually or determined via GPS.  User allows sharing with agency.",,"https://covid.sd.gov/care19app.aspx, https://www.care19.app/privacy"
-47,Tennessee,TN,Second,No,N/A,N/A,N/A,,,"https://www.tml1.org/town-and-city/contact-tracing-brings-high-tech-approach-tracking-covid-19-cases-statewide, https://www.wate.com/news/the-healthcare-tool-called-contact-tracing-for-covid-19-in-tennessee/"
-48,Texas,TX,Second,No,N/A,N/A,N/A,No app plans; using an online reporting system for possible cases and contacts called Texas Health Trace,,https://www.dshs.state.tx.us/coronavirus/tracing.aspx
-49,Utah,UT,Second,Yes,Healthy Together,"GPS, Bluetooth",Twenty,Using an app to track users' location to help with contact tracing,,https://coronavirus.utah.gov/healthy-together-app/
-50,Vermont,VT,Second,No,N/A,N/A,N/A,No plans for an app; using SARA Alert system,,"https://governor.vermont.gov/press-release/governor-phil-scott-announces-enhanced-testing-and-contact-tracing-programs, https://www.wcax.com/content/news/Vt-health-officials-using-technology-to-aid-in-contact-tracing--570482021.html"
-51,Virginia,VA,Second,Yes,Under Investigation,Under Investigation,Apple-Google,"Plan to release an app that uses proximity tracking, though no specific details have been announced",,"https://www.vdh.virginia.gov/coronavirus/prevention-tips/contact-tracing/, https://www.wtkr.com/news/vdh-to-roll-out-app-to-help-with-contact-tracing, https://www.wtvr.com/news/local-news/how-covid-19-contact-tracing-will-work-in-virginia"
-53,Washington,WA,Second,Undecided,N/A,N/A,N/A,"The state health department is considering implementing a mobile app, possibly the CovidSafe app (developed by Microsoft and the University of Washington), or Apple-Google technology",,"https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/CaseInvestigationsandContactTracing/CaseInvestigationsandContactTracingFAQ, https://www.q13fox.com/news/state-considers-contact-tracing-app-to-combat-covid-19, https://www.washington.edu/news/2020/04/22/a-contact-tracing-app-that-helps-public-health-agencies-and-doesnt-compromise-your-privacy/"
-54,West Virginia,WV,Second,No,N/A,N/A,N/A,,,https://9to5mac.com/2020/06/30/covid-19-exposure-notification-api-states/
-55,Wisconsin,WI,Second,No,N/A,N/A,N/A,Analytic software,,"https://www.dhs.wisconsin.gov/covid-19/seoc.htm, https://www.dhs.wisconsin.gov/news/releases/040920.htm, https://fox6now.com/2020/05/19/gov-evers-announces-1b-statwide-effort-to-support-covid-19-testing-response/"
-56,Wyoming,WY,Second,Statewide App,Care 19,"GPS, Bluetooth",ProudCrowd,"Partnership w SD and ND, Random number assigned to individual, Digital log that can be entered manually or determined via GPS.  User allows sharing with agency.",Trgovac,https://www.wyomingnews.com/coronavirus/governor-announces-covid-19-contact-tracing-app-now-available-to-wyoming-residents/article_d9eb6255-603a-5533-955d-24891743b47f.html
-56,Wyoming (Teton County),WY,Second,Countywide App,Pathcheck Safeplaces,Time Stamped GPS,PathCheck,"Independent of state app, encrypted library stored in phone for 14 days",Trgovac,"https://www.tetoncountywy.gov/2156/PathCheck-SafePlaces-Mobile-App?utm_source=buckrail.com&utm_medium=referral&utm_campaign=Buckrail-Content, https://buckrail.com/health-department-unveils-contact-tracing-app/?utm_source=buckrail.com&utm_medium=referral&utm_campaign=Buckrail-Content"
-60,American Samoa,AS,Second,No,,,,,,"https://6fe16cc8-c42f-411f-9950-4abb1763c703.filesusr.com/ugd/4bfff9_3514d6c2679d40408e65df6b5bfc38e9.pdf, https://6fe16cc8-c42f-411f-9950-4abb1763c703.filesusr.com/ugd/4bfff9_82026bcb56764a84b7b328e12b34f90e.pdf"
-66,Guam,GU,Second,Yes,"Emocha, Safe Paths",Bluetooth,Apple-Google,"Using an app called Emocha to communicate information to cases and contacts, as well as an app called Safe Paths which uses Apple-Google technology to track the location of users",,"https://www.pncguam.com/public-health-to-roll-out-2-coronavirus-apps-on-guam/, https://emocha.com/covid-19-remote-symptoms-monitoring-service/, https://pathcheck.org"
-69,Northern Mariana Islands,MP,Second,No,,,,No plans for app; using SARA Alert system,,https://www.saipantribune.com/index.php/chcc-switches-alert-system/
-72,Puerto Rico,PR,Second,No,,,,,,http://www.salud.gov.pr/Documents/Plan%20de%20Preparación%20y%20Respuesta%20COVID-19%20DSPR%20P.pdf
+FIPS,State,Abrv,App Planned,App Name,Technology,Developers
+1,Alabama,AL,Yes,Under Investigation,Bluetooth,Apple-Google
+2,Alaska,AK,No,N/A,N/A,N/A
+4,Arizona,AZ,No,N/A,N/A,N/A
+5,Arkansas,AR,No,N/A,N/A,N/A
+6,California,CA,No,N/A,N/A,N/A
+8,Colorado,CO,No,N/A,N/A,N/A
+9,Connecticut,CT,No,N/A,N/A,N/A
+10,Delaware,DE,No,N/A,N/A,N/A
+12,Florida,FL,Undecided,N/A,N/A,N/A
+13,Georgia,GA,No,N/A,N/A,N/A
+15,Hawaii,HI,No,N/A,N/A,N/A
+16,Idaho,ID,No,N/A,N/A,N/A
+17,Illinois,IL,Yes,Under Investigation,Under Investigation,Under Investigation
+18,Indiana,IN,No,N/A,N/A,N/A
+19,Iowa,IA,No,N/A,N/A,N/A
+20,Kansas,KS,No,N/A,N/A,N/A
+21,Kentucky,KY,No,N/A,N/A,N/A
+22,Louisiana,LA,No,N/A,N/A,N/A
+23,Maine,ME,No,N/A,N/A,N/A
+24,Maryland,MD,No,N/A,N/A,N/A
+25,Massachusetts,MA,Undecided,N/A,N/A,N/A
+26,Michigan,MI,No,N/A,N/A,N/A
+27,Minnesota,MN,No,N/A,N/A,N/A
+28,Mississippi,MS,No,N/A,N/A,N/A
+29,Missouri,MO,No,N/A,N/A,N/A
+30,Montana,MT,No,N/A,N/A,N/A
+31,Nebraska,NE,No,N/A,N/A,N/A
+32,Nevada,NV,Undecided,N/A,N/A,N/A
+33,New Hampshire,NH,No,N/A,N/A,N/A
+34,New Jersey,NJ,No,N/A,N/A,N/A
+35,New Mexico,NM,No,N/A,N/A,N/A
+36,New York,NY,Undecided,N/A,N/A,Vital Strategies
+37,North Carolina,NC,No,N/A,N/A,N/A
+38,North Dakota,ND,Yes,Care19,"GPS, Bluetooth",ProudCrowd
+39,Ohio,OH,No,N/A,N/A,N/A
+40,Oklahoma,OK,No,N/A,N/A,N/A
+41,Oregon,OR,Yes,Under Investigation,Under Investigation,Under Investigation
+42,Pennsylvania,PA,Undecided,N/A,N/A,N/A
+44,Rhode Island,RI,Yes,CRUSH COVID RI,"GPS, Bluetooth",InfoSys
+45,South Carolina,SC,Yes,Under Investigation,Bluetooth,Apple-Google
+46,South Dakota,SD,Yes,Care19,"GPS, Bluetooth",ProudCrowd
+47,Tennessee,TN,No,N/A,N/A,N/A
+48,Texas,TX,No,N/A,N/A,N/A
+49,Utah,UT,Yes,Healthy Together,"GPS, Bluetooth",Twenty
+50,Vermont,VT,No,N/A,N/A,N/A
+51,Virginia,VA,Yes,Under Investigation,Under Investigation,Apple-Google
+53,Washington,WA,Undecided,N/A,N/A,N/A
+54,West Virginia,WV,No,N/A,N/A,N/A
+55,Wisconsin,WI,No,N/A,N/A,N/A
+56,Wyoming,WY,Statewide App,Care 19,"GPS, Bluetooth",ProudCrowd
+56,Wyoming (Teton County),WY,Countywide App,Pathcheck Safeplaces,Time Stamped GPS,PathCheck
+60,American Samoa,AS,No,,,
+66,Guam,GU,Yes,"Emocha, Safe Paths",Bluetooth,Apple-Google
+69,Northern Mariana Islands,MP,No,,,
+72,Puerto Rico,PR,No,,,
