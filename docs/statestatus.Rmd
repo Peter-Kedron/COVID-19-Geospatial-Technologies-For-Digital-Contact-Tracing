@@ -5,9 +5,6 @@ output: html_document
 
 Our project team is tracking how states are using digital contact tracing technologies (DCTT) to respond to COVID-19. The map and table below contain a summary of which states are using which technologies in their response. We will be regularly updating and expanding this information as the project progresses. More information about individual DCTT is available on our Technologies Page or through the [Project GitHub Repository](https://github.com/Peter-Kedron/COVID-19-Geospatial-Technologies-For-Digital-Contact-Tracing) and the [Project Open Science Framework Page](https://osf.io/kpvbq/).
 
-Coming Soon!
-
-<!--
 ## Overview Map
 
 ```{r code = readLines("../../scripts/us_overview_map.R"), echo = FALSE, message = FALSE, warning = FALSE}
@@ -20,4 +17,4 @@ library(here)
 data_table = read.csv(here("data", "State DCT Apps - Website Data.csv"))
 datatable(data_table)
 ```
--->
+
