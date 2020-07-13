@@ -1,16 +1,17 @@
 ---
-title: "State Status"
+title: "Status of State Digital Contact Tracing Technologies"
 output: html_document
 ---
 
 Our project team is tracking how states are using digital contact tracing technologies (DCTT) to respond to COVID-19. The map and table below contain a summary of which states are using which technologies in their response. We will be regularly updating and expanding this information as the project progresses. More information about individual DCTT is available on our Technologies Page or through the [Project GitHub Repository](https://github.com/Peter-Kedron/COVID-19-Geospatial-Technologies-For-Digital-Contact-Tracing) and the [Project Open Science Framework Page](https://osf.io/kpvbq/).
 
-## Overview Map
+### Status of State-led Digital Contact Tracing Technology Development and Use
+<br>
 
 ```{r code = readLines("../../scripts/us_overview_map.R"), echo = FALSE, message = FALSE, warning = FALSE}
 ```
 
-## States Currently Pursuing Digital Contact Tracing Technologies
+### States Currently Pursuing Digital Contact Tracing Technologies
 The following states are currently developing or using digital contact tracing technologies. A complete list of the plans and activities of all 50 states is available through the Project GitHub Repository.
 
 Data last updated: July 3rd, 2020.
