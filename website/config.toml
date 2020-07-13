@@ -3,7 +3,7 @@ relativeurls = true
 publishDir = "../docs/"
 languageCode = "en-us"
 theme = "minimal"
-title = "Contact Tracing"
+title = "Digital Contact Tracing"
 #disqusShortname = "username" # delete this to disable disqus comments
 #googleAnalytics = ""
 
