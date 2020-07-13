@@ -11,6 +11,8 @@ Our project team is tracking how states are using digital contact tracing techno
 ```
 
 ## Data Table
+Data last updated: July 3rd, 2020
+
 ```{r echo = FALSE, message = FALSE, warning = FALSE}
 library(DT)
 library(here)
