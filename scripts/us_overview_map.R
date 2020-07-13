@@ -30,7 +30,12 @@ map <- plot_geo(state_data, name = "\n", colorscale = color_scale, width = 1000,
 map <- map %>% add_trace(locationmode = "USA-states", z = ~App.Planned.Num, locations = ~Abrv, hovertemplate = ~map_hover_text, color = ~App.Planned.Num, colors = c("#f8f8f8","#800000"), showscale = TRUE)
 map <- map %>% add_trace(name = "\n\n", geojson = wy_teton, z = ~App.Planned.Num[51], locations = "56039", hovertemplate = teton_county_hover, colors = c("#f8f8f8","#800000"), showscale = FALSE)
 map <- map %>% colorbar(title = list(text = "DCT App Planned", font = list(size = 15)), tickmode = "array", tickvals = list(0.75, 0.25), ticktext = list("Yes", "No"), ticks = "", thickness = 15, len = 0.15)
-map <- map %>% layout(title = "COVID-19 Digital Contact Tracing (DCT) Status", geo = map_settings)
+
+# Have to use HTML to add a subtitle in plotly
+map <- map %>% layout(geo = map_settings, title = list(text = paste0("COVID-19 Digital Contact Tracing (DCT) Status", "<br>", "<sup>", "As of July 3rd, 2020", "</sup>")))
+
+# Modify the modebar to remove unnecessary buttons
+map <- map %>% config(displaylogo = FALSE, modeBarButtonsToRemove = c("lasso2d", "select2d", "pan2d", "hoverClosestGeo"))
 
 # Display the map
 map
