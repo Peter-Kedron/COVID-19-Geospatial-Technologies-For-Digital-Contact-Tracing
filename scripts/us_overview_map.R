@@ -26,7 +26,7 @@ map_settings <- list(scope = 'usa', projection = list(type = 'albers usa'), show
 color_scale <- data.frame(z = c(0, 0.5, 0.5, 1), col = c("#f8f8f8", "#f8f8f8", "#800000", "#800000"))
 
 # Create the map, add one trace for the states and another for Teton County, WY, set the colorbar, and set the title.
-map <- plot_geo(state_data, name = "\n", colorscale = color_scale, width = 900, height = 600)
+map <- plot_geo(state_data, name = "\n", colorscale = color_scale, width = 750)
 map <- map %>% add_trace(locationmode = "USA-states", z = ~App.Planned.Num, locations = ~Abrv, hovertemplate = ~map_hover_text, color = ~App.Planned.Num, colors = c("#f8f8f8","#800000"), showscale = TRUE)
 map <- map %>% add_trace(name = "\n\n", geojson = wy_teton, z = ~App.Planned.Num[51], locations = "56039", hovertemplate = teton_county_hover, colors = c("#f8f8f8","#800000"), showscale = FALSE)
 map <- map %>% colorbar(title = list(text = "DCTT App Planned", font = list(size = 15)), tickmode = "array", tickvals = list(0.75, 0.25), ticktext = list("Yes", "No"), ticks = "", thickness = 15, len = 0.15, x = 0, y = 1)
