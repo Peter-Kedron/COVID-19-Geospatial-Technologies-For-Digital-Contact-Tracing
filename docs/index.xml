@@ -22,6 +22,15 @@ Our work is funded by the U.S. National Science Foundation Award BCS-2032203. We
     </item>
     
     <item>
+      <title>About the Project</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>We are creating a database of the digital contact tracing technologies (DCTT) being used by public health authorities (PHA) in the United States to respond to the spread of SARS-COV-2, the virus responsible for COVID-19. While we collect data on many aspects of each individual DCTT, we are particularly interested in the geospatial technologies used in these systems, the location data they produce, and how that data is managed, stored, transferred, and shared.</description>
+    </item>
+    
+    <item>
       <title>Contact Us</title>
       <link>/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -37,15 +46,6 @@ Our work is funded by the U.S. National Science Foundation Award BCS-2032203. We
       
       <guid>/technologies/</guid>
       <description>A range of different technologies are now being developed, combined, and deployed to facilitate the tracing of contacts of individuals that have tested positive for COVID-19. These digital contact tracing technologies (DCTT) are a combination of the physical hardware embedded in device (e.g., the GNSS receiver on a mobile device), the software developed to use those devices (e.g., the API and accompanying application on a phone), and the operational protocols the govern these systems (e.</description>
-    </item>
-    
-    <item>
-      <title>Location Tracking, Contact Tracing, and Geospatial Privacy of COVID-19</title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>We are creating a database of the digital contact tracing technologies (DCTT) being used by public health authorities (PHA) in the United States to respond to the spread of SARS-COV-2, the virus responsible for COVID-19. While we collect data on many aspects of each individual DCTT, we are particularly interested in the geospatial technologies used in these systems, the location data they produce, and how that data is managed, stored, transferred, and shared.</description>
     </item>
     
     <item>
