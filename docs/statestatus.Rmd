@@ -10,13 +10,15 @@ Our project team is tracking how states are using digital contact tracing techno
 ```{r code = readLines("../../scripts/us_overview_map.R"), echo = FALSE, message = FALSE, warning = FALSE}
 ```
 
-## Data Table
-Data last updated: July 3rd, 2020
+## States Currently Pursuing Digital Contact Tracing Technologies
+The following states are currently developing or using digital contact tracing technologies. A complete list of the plans and activities of all 50 states is available through the Project GitHub Repository.
+
+Data last updated: July 3rd, 2020.
 
 ```{r echo = FALSE, message = FALSE, warning = FALSE}
 library(DT)
 library(here)
-data_table = read.csv(here("data", "State DCT Apps - Website Data.csv"))
+data_table = read.csv(here("data", "StateDCTApps-WebsiteData_YesOnly.csv"))
 datatable(data_table)
 ```
 

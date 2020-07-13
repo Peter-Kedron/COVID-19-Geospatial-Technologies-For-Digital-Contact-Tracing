@@ -1,0 +1,13 @@
+FIPS,State,Abrv,App Planned,App Name,Technology,Developers
+1,Alabama,AL,Yes,Under Investigation,Bluetooth,Apple-Google
+17,Illinois,IL,Yes,Under Investigation,Under Investigation,Under Investigation
+38,North Dakota,ND,Yes,Care19,"GPS, Bluetooth",ProudCrowd
+41,Oregon,OR,Yes,Under Investigation,Under Investigation,Under Investigation
+44,Rhode Island,RI,Yes,CRUSH COVID RI,"GPS, Bluetooth",InfoSys
+45,South Carolina,SC,Yes,Under Investigation,Bluetooth,Apple-Google
+46,South Dakota,SD,Yes,Care19,"GPS, Bluetooth",ProudCrowd
+49,Utah,UT,Yes,Healthy Together,"GPS, Bluetooth",Twenty
+51,Virginia,VA,Yes,Under Investigation,Under Investigation,Apple-Google
+56,Wyoming,WY,Statewide App,Care 19,"GPS, Bluetooth",ProudCrowd
+56,Wyoming (Teton County),WY,Countywide App,Pathcheck Safeplaces,Time Stamped GPS,PathCheck
+66,Guam,GU,Yes,"Emocha, Safe Paths",Bluetooth,Apple-Google
