@@ -77,7 +77,7 @@ title = "Digital Contact Tracing"
 # The "name" field should match the name of the icon in Font Awesome.
 # The list of available icons can be found at http://fontawesome.io/icons.
 
-#[[menu.icon]]
-#    url = "https://github.com/Peter-Kedron/COVID-19-Geospatial-Technologies-For-Digital-Contact-Tracing"
-#    name = "github"
-#    weight = 1
+[[menu.icon]]
+    url = "https://twitter.com/DigitalTracing"
+    name = "twitter"
+    weight = 1
