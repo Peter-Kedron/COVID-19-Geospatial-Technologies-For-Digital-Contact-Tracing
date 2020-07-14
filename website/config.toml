@@ -26,8 +26,20 @@ title = "Digital Contact Tracing"
 
 [[menu.main]]
     identifier = "about"
-    url = "/about/"
+    url = ""
     name = "About"
+    weight = 2
+
+[[menu.main]]
+    parent = "about"
+    url = "/aboutproject/"
+    name = "About the Project"
+    weight = 1
+    
+[[menu.main]]
+    parent = "about"
+    url = "/aboutteam/"
+    name = "About the Team"
     weight = 2
 
 [[menu.main]]

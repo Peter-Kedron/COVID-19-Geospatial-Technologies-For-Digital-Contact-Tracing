@@ -1,7 +1,6 @@
 ---
 title: "About the Project"
 output: html_document
-extra: true
 ---
 
 ```{r setup, include=FALSE}
@@ -14,7 +13,3 @@ Project datasets, data collection protocols, assessment frameworks, white papers
 
 This project is funded by the [U.S. National Science Foundation Award BCS-2032203](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2032203).
 
-<br>
-<h2 style="text-align: center;">About the Research Team</h2>
-
-Coming soon!
