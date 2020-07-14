@@ -7,4 +7,4 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-For more information regarding this project, please contact us at [digitalcontacttracing@gmail.com](mailto:digitalcontacttracing@gmail.com). You can also reach out on Twitter [@DigitalTracing](https://twitter.com/DigitalTracing).
+For more information regarding this project, please contact us at [digitalcontacttracing@gmail.com](mailto:digitalcontacttracing@gmail.com). You can also reach out on Twitter @[DigitalTracing](https://twitter.com/DigitalTracing).
