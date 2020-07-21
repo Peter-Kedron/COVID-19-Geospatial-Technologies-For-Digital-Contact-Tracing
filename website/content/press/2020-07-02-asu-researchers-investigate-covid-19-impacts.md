@@ -1,7 +1,7 @@
 ---
 title: ASU Researchers Investigate COVID-19 Impacts
 author: ~
-date: '2020-07-20'
+date: '2020-07-02'
 slug: asu-researchers-investigate-covid-19-impacts
 categories: []
 tags: []
