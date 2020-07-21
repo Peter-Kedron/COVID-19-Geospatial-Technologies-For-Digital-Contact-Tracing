@@ -58,19 +58,9 @@ title = "Digital Contact Tracing"
     weight = 5
     
 [[menu.main]]
-    url = "https://github.com/Peter-Kedron/COVID-19-Geospatial-Technologies-For-Digital-Contact-Tracing"
-    name = "GitHub"
-    weight = 6
-
-[[menu.main]]
-    url = "https://osf.io/kpvbq/"
-    name = "OSF"
-    weight = 7
-    
-[[menu.main]]
     url = "/contact/"
     name = "Contact Us"
-    weight = 8
+    weight = 6
 
 
 # Social icons to be shown on the right-hand side of the navigation bar.
@@ -81,3 +71,13 @@ title = "Digital Contact Tracing"
     url = "https://twitter.com/DigitalTracing"
     name = "twitter"
     weight = 1
+    
+[[menu.icon]]
+    url = "https://github.com/Peter-Kedron/COVID-19-Geospatial-Technologies-For-Digital-Contact-Tracing"
+    name = "github"
+    weight = 2
+    
+[[menu.icon]]
+    url = "https://osf.io/kpvbq/"
+    name = "database"
+    weight = 3
