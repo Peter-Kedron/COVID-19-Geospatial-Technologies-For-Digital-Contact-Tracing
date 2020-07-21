@@ -7,7 +7,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-![](/kedron_bio_pic_150px.jpg)  
+![](/kedron_bio_pic_150px.png)  
 **Dr. Peter Kedron**
 
 *Assistant Professor of Geography and Urban Planning at Arizona State University*
