@@ -82,15 +82,18 @@ title = "Digital Contact Tracing"
 
 [[menu.icon]]
     url = "https://twitter.com/DigitalTracing"
-    name = "twitter"
+    identifier = "twitter"
+    name = "Twitter"
     weight = 1
     
 [[menu.icon]]
     url = "https://github.com/Peter-Kedron/COVID-19-Geospatial-Technologies-For-Digital-Contact-Tracing"
-    name = "github"
+    identifier = "github"
+    name = "GitHub"
     weight = 2
     
 [[menu.icon]]
     url = "https://osf.io/kpvbq/"
-    name = "database"
+    identifier = "database"
+    name = "OSF"
     weight = 3
