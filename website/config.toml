@@ -43,9 +43,22 @@ title = "Digital Contact Tracing"
     weight = 2
 
 [[menu.main]]
-    url = "/updates/"
+    identifier = "updates"
+    url = ""
     name = "Updates"
     weight = 3
+    
+[[menu.main]]
+    parent = "updates"
+    url = "/press/"
+    name = "Press Updates"
+    weight = 1
+    
+[[menu.main]]
+    parent = "updates"
+    url = "/projectupdates/"
+    name = "Project Updates"
+    weight = 2
     
 [[menu.main]]
     url = "/statestatus/"
