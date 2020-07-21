@@ -7,4 +7,15 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-For more information regarding this project, please contact us at [digitalcontacttracing@gmail.com](mailto:digitalcontacttracing@gmail.com). You can also reach out on Twitter @[DigitalTracing](https://twitter.com/DigitalTracing).
+For more information regarding this project, please contact us at [digitalcontacttracing@gmail.com](mailto:digitalcontacttracing@gmail.com).
+
+<br></br>
+
+You can also find us on social media and other places online:
+
+<a target="_blank" href="https://twitter.com/DigitalTracing">Twitter <i class="fa fa-twitter"></i></a>
+
+<a target="_blank" href="https://github.com/Peter-Kedron/COVID-19-Geospatial-Technologies-For-Digital-Contact-Tracing">GitHub <i class="fa fa-github"></i></a>
+
+<a target="_blank" href="https://osf.io/kpvbq/">OSF <i class="fa fa-database"></i></a>
+
