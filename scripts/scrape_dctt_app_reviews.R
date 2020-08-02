@@ -100,7 +100,10 @@ for(x in play_store_urls) {
   ratings <- driver$findElements(using = "css", value = "span.nt2C1d > div.pf5lIe > div")
   ratings_list <- vector()
   for(x in ratings) {
-    ratings_list <- append(ratings_list, (x$getElementAttribute("aria-label"))[[1]])
+    text <- (x$getElementAttribute("aria-label"))[[1]]
+    text <- strsplit(text, " ")
+    new_rating <- paste(text[[1]][2], text[[1]][4], text[[1]][5], "5", sep = " ")
+    ratings_list <- append(ratings_list, new_rating)
   }
   
   # Get the review comments
