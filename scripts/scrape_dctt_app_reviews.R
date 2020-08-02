@@ -158,7 +158,7 @@ for(x in app_store_urls) {
   }
   
   # Get the name of the app from the page
-  app_name_element <- driver$findElement(using = "class", value = "see-all-header__title")
+  app_name_element <- driver$findElement(using = "css", value = "a.see-all-header__link.link")
   app_name <- (app_name_element$getElementText())[[1]]
   
   # Get the names of the reviewers
