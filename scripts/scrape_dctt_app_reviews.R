@@ -128,6 +128,50 @@ for(x in play_store_urls) {
   # Merge this page's data frame with the universal one
   apps_df <<- merge(apps_df, page_df, all = TRUE)
   
+  # Check for developer comments
+  dev_comments_available <- FALSE
+  tryCatch({
+    suppressMessages({
+      dev_comments_available = driver$findElement("class", "LVQB0b")$isElementDisplayed()[[1]]
+    })
+    },
+    error = function(e) {
+      NA_character_
+    }
+  )
+  
+  # If they exist, add the components to the vectors below
+  if(dev_comments_available == TRUE) {
+    dev_comments <- vector()
+    dev_dates <- vector()
+    dev_names <- vector()
+    dev_ratings <- vector()
+    dev_app <- vector()
+    dev_platform <- vector()
+    dc <- driver$findElements("css", "div.LVQB0b")
+    dd <- driver$findElements("css", "div.LVQB0b div > span.p2TkOb")
+    
+    for(x in dc) {
+      text <- (x$getElementText())[[1]]
+      comment <- strsplit(text, "\n")[[1]][2]
+      dev_comments <- append(dev_comments, comment)
+    }
+    for(x in dd) {
+      dev_dates <- append(dev_dates, (x$getElementText())[[1]])
+    }
+    
+    for(i in 1:length(dev_comments)) {
+      dev_names <- append(dev_names, "Developer")
+      dev_ratings <- append(dev_ratings, "N/A")
+      dev_app <- append(dev_app, app_name)
+      dev_platform <- append(dev_platform, "Android")
+    }
+    
+    # Merge the developer comments into the apps data frame
+    dev_df <- data.frame(App_Name = dev_app, Platform = dev_platform, Reviewer_Name = dev_names, Review_Date = dev_dates, Review_Rating = dev_ratings, Review_Comment = dev_comments)
+    apps_df <<- merge(apps_df, dev_df, all = TRUE)
+  }
+  
   # Close the session
   driver$close()
 }
@@ -185,12 +229,15 @@ for(x in app_store_urls) {
   # Get the review comments
   reviews <- driver$findElements(using = "css", value = "div.we-customer-review.lockup.ember-view > blockquote > div.we-clamp.ember-view")
   reviews_list <- vector()
+  dev_comments <- vector()
   for(x in reviews) {
     text <- (x$getElementText())[[1]]
     a <- substr(text, 1, 2)
     b <- substr(text, 1, 5)
     if(a != "Hi" && b != "Hello") {
       reviews_list <- append(reviews_list, text)
+    } else {
+      dev_comments <- append(dev_comments, text)
     }
   }
   
@@ -211,6 +258,27 @@ for(x in app_store_urls) {
   
   # Merge this page's data frame with the universal one
   apps_df <<- merge(apps_df, page_df, all = TRUE)
+  
+  # Check for developer comments and merge them if they exist
+  if(length(dev_comments) > 0) {
+    dev_dates <- vector()
+    dev_names <- vector()
+    dev_ratings <- vector()
+    dev_app <- vector()
+    dev_platform <- vector()
+    
+    for(i in 1:length(dev_comments)) {
+      dev_dates <- append(dev_dates, "N/A")
+      dev_names <- append(dev_names, "Developer")
+      dev_ratings <- append(dev_ratings, "N/A")
+      dev_app <- append(dev_app, app_name)
+      dev_platform <- append(dev_platform, "iOS")
+    }
+    
+    # Merge the developer comments into the apps data frame
+    dev_df <- data.frame(App_Name = dev_app, Platform = dev_platform, Reviewer_Name = dev_names, Review_Date = dev_dates, Review_Rating = dev_ratings, Review_Comment = dev_comments)
+    apps_df <<- merge(apps_df, dev_df, all = TRUE)
+  }
   
   # Close the session
   driver$close()
