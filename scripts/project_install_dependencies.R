@@ -9,3 +9,7 @@ install.packages("here")
 
 # Interactive map
 install.packages("plotly")
+install.packages("ggplot2")
+
+# For mobile application review scraping
+install.packages("RSelenium")
