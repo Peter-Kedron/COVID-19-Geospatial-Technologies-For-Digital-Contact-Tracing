@@ -43,18 +43,28 @@
                         <span class="icon-bar"></span>
                     </button>
                 </div>
-                <div class="collapse navbar-collapse">
+                <div class="collapse navbar-collapse dropdown-toggle">
                     {{ if .Site.Menus.main }}
                         <ul class="nav navbar-nav">
                             {{ range sort .Site.Menus.main }}
-                                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                                {{ if .HasChildren }}
+                                    <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> {{ .Name }} <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        {{ range sort .Children }}
+                                            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                                        {{ end }}
+                                    </ul>
+                                {{ else }}
+                                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                                {{ end }}
                             {{ end }}
                         </ul>
                     {{ end }}
                     {{ if .Site.Menus.icon }}
                         <ul class="nav navbar-nav navbar-right">
                             {{ range sort .Site.Menus.icon }}
-                                <li class="navbar-icon"><a href="{{ .URL }}"><i class="fa fa-{{ .Name }}"></i></a></li>
+                                <li class="navbar-icon"><a target="_blank" title="{{ .Name }}" href="{{ .URL }}"><i class="fa fa-{{ .Identifier }}"></i></a></li>
                             {{ end }}
                         </ul>
                     {{ end }}
