@@ -93,7 +93,10 @@ for(x in play_store_urls) {
   dates <- driver$findElements(using = "css", value = "div.bAhLNe.kx8XBd > div > span.p2TkOb")
   dates_list <- vector()
   for(x in dates) {
-    dates_list <- append(dates_list, (x$getElementText())[[1]])
+    d <- as.Date((x$getElementText())[[1]], format = "%B %d, %Y")
+    d <- format(d, "%m/%d/%Y")
+    d <- as.character(d)
+    dates_list <- append(dates_list, d)
   }
   
   # Get the review rating
@@ -111,6 +114,15 @@ for(x in play_store_urls) {
   reviews_list <- vector()
   for(x in reviews) {
     reviews_list <- append(reviews_list, (x$getElementText())[[1]])
+  }
+  
+  # Compare the length of some of the lists; if they are not the same length, there
+  # was a major problem scraping the information and the program should quit.
+  # Vectors of differing lengths cannot be added to a data frame.
+  if(length(reviews_list) != length(names_list) || length(ratings_list) != length(dates_list)) {
+    close_selenium()
+    print("Error: did not scrape a consistent amount of information from the web page.")
+    quit("no")
   }
   
   # Get the length of one of the lists and create a platform and app name list
@@ -160,7 +172,10 @@ for(x in play_store_urls) {
       dev_comments <- append(dev_comments, comment)
     }
     for(x in dd) {
-      dev_dates <- append(dev_dates, (x$getElementText())[[1]])
+      d <- as.Date((x$getElementText())[[1]], format = "%B %d, %Y")
+      d <- format(d, "%m/%d/%Y")
+      d <- as.character(d)
+      dev_dates <- append(dev_dates, d)
     }
     
     for(i in 1:length(dev_comments)) {
@@ -244,6 +259,15 @@ for(x in app_store_urls) {
     }
   }
   
+  # Compare the length of some of the lists; if they are not the same length, there
+  # was a major problem scraping the information and the program should quit.
+  # Vectors of differing lengths cannot be added to a data frame.
+  if(length(reviews_list) != length(names_list) || length(ratings_list) != length(dates_list)) {
+    close_selenium()
+    print("Error: did not scrape a consistent amount of information from the web page.")
+    quit("no")
+  }
+  
   # Get the length of one of the lists and create a platform and app name list
   # of the same length
   len = length(names_list)
@@ -294,10 +318,18 @@ write.csv(apps_df, here("data", "dctt_app_reviews.csv"), row.names = FALSE)
 driver$closeall()
 driver$closeServer()
 
-#temp
-pid <- as.numeric(system("pidof java", intern = TRUE))
-if(pid > 1) {
-  command <- paste("kill", pid, sep = " ")
-  system(command)
+# Close the Selenium server if it doesn't above
+close_selenium <- function() {
+  os_type <- .Platform$OS.type
+  if(os_type == "unix") {
+    pid <- as.numeric(system("pidof java", intern = TRUE))
+    if(pid > 1) {
+      command <- paste("kill -9", pid, sep = " ")
+      system(command)
+    }
+  } else if(os_type == "windows") {
+    command <- ("taskkill /f /t /im java.exe")
+    system(command)
+  }
 }
-
+close_selenium()
