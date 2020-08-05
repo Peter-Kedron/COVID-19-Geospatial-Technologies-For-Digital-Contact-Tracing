@@ -9,6 +9,21 @@
 library(RSelenium)
 library(here)
 
+# Close the selenium server by killing the Java process
+close_selenium <- function() {
+  os_type <- .Platform$OS.type
+  if(os_type == "unix") {
+    pid <- as.numeric(system("pidof java", intern = TRUE))
+    if(pid > 1) {
+      command <- paste("kill -9", pid, sep = " ")
+      system(command)
+    }
+  } else if(os_type == "windows") {
+    command <- ("taskkill /f /t /im java.exe")
+    system(command)
+  }
+}
+
 # Store review URL suffixes
 play_store_suffix <- ("&showAllReviews=true")
 app_store_suffix <- ("#see-all/reviews")
@@ -27,8 +42,8 @@ app_store_urls <- urls[, "App_Store_URL"]
 
 # Create a data frame to hold all the app reviews
 apps_df <- read.csv(
-  text = "App_Name,Platform,Reviewer_Name,Review_Date,Review_Rating,Review_Comment", 
-  colClasses = c("character", "character", "character", "character", "character", "character"))
+  text = "App_Name,Platform,Reviewer_Name,Review_Date,Review_Rating,Review_Comment,Developer_Response", 
+  colClasses = c("character", "character", "character", "character", "character", "character", "character"))
 
 # Iterate over the Play Store URLs
 for(x in play_store_urls) {
@@ -110,10 +125,24 @@ for(x in play_store_urls) {
   }
   
   # Get the review comments
-  reviews <- driver$findElements(using = "class", value = "UD7Dzf")
+  reviews <- driver$findElements(using = "css", value = "div.d15Mdf.bAhLNe")
   reviews_list <- vector()
+  dev_responses <- vector()
   for(x in reviews) {
-    reviews_list <- append(reviews_list, (x$getElementText())[[1]])
+    # Get the entire comment block and split it into an array by newline characters
+    review_components <- strsplit((x$getElementText())[[1]], "\n")
+    
+    # If the length is 5 or 6, there is no developer response and the review
+    # comment is at the last index.
+    # If the length is 7 or 8, there is a developer response which is at the
+    # last index while the review comment is at 2 less than the last index.
+    if(length(review_components[[1]]) == 5 || length(review_components[[1]]) == 6) {
+      reviews_list <- append(reviews_list, review_components[[1]][length(review_components[[1]])])
+      dev_responses <- append(dev_responses, "N/A")
+    } else if(length(review_components[[1]]) == 7 || length(review_components[[1]]) == 8) {
+      reviews_list <- append(reviews_list, review_components[[1]][length(review_components[[1]]) - 2])
+      dev_responses <- append(dev_responses, review_components[[1]][length(review_components[[1]])])
+    }
   }
   
   # Compare the length of some of the lists; if they are not the same length, there
@@ -138,57 +167,11 @@ for(x in play_store_urls) {
   # Create a new data frame with the information scraped from this page
   page_df <- data.frame(App_Name = app_list, Platform = platform_list, 
                         Reviewer_Name = names_list, Review_Date = dates_list, 
-                        Review_Rating = ratings_list, Review_Comment = reviews_list)
+                        Review_Rating = ratings_list, Review_Comment = reviews_list, 
+                        Developer_Response = dev_responses)
   
   # Merge this page's data frame with the universal one
   apps_df <<- merge(apps_df, page_df, all = TRUE)
-  
-  # Check for developer comments
-  dev_comments_available <- FALSE
-  tryCatch({
-    suppressMessages({
-      dev_comments_available = driver$findElement("class", "LVQB0b")$isElementDisplayed()[[1]]
-    })
-    },
-    error = function(e) {
-      NA_character_
-    }
-  )
-  
-  # If they exist, add the components to the vectors below
-  if(dev_comments_available == TRUE) {
-    dev_comments <- vector()
-    dev_dates <- vector()
-    dev_names <- vector()
-    dev_ratings <- vector()
-    dev_app <- vector()
-    dev_platform <- vector()
-    dc <- driver$findElements("css", "div.LVQB0b")
-    dd <- driver$findElements("css", "div.LVQB0b div > span.p2TkOb")
-    
-    for(x in dc) {
-      text <- (x$getElementText())[[1]]
-      comment <- strsplit(text, "\n")[[1]][2]
-      dev_comments <- append(dev_comments, comment)
-    }
-    for(x in dd) {
-      d <- as.Date((x$getElementText())[[1]], format = "%B %d, %Y")
-      d <- format(d, "%m/%d/%Y")
-      d <- as.character(d)
-      dev_dates <- append(dev_dates, d)
-    }
-    
-    for(i in 1:length(dev_comments)) {
-      dev_names <- append(dev_names, "Developer")
-      dev_ratings <- append(dev_ratings, "N/A")
-      dev_app <- append(dev_app, app_name)
-      dev_platform <- append(dev_platform, "Android")
-    }
-    
-    # Merge the developer comments into the apps data frame
-    dev_df <- data.frame(App_Name = dev_app, Platform = dev_platform, Reviewer_Name = dev_names, Review_Date = dev_dates, Review_Rating = dev_ratings, Review_Comment = dev_comments)
-    apps_df <<- merge(apps_df, dev_df, all = TRUE)
-  }
   
   # Close the session
   driver$close()
@@ -245,17 +228,23 @@ for(x in app_store_urls) {
   }
   
   # Get the review comments
-  reviews <- driver$findElements(using = "css", value = "div.we-customer-review.lockup.ember-view > blockquote > div.we-clamp.ember-view")
+  reviews <- driver$findElements(using = "css", value = "div.we-customer-review.lockup.ember-view")
   reviews_list <- vector()
-  dev_comments <- vector()
+  dev_responses <- vector()
   for(x in reviews) {
-    text <- (x$getElementText())[[1]]
-    a <- substr(text, 1, 2)
-    b <- substr(text, 1, 5)
-    if(a != "Hi" && b != "Hello") {
-      reviews_list <- append(reviews_list, text)
-    } else {
-      dev_comments <- append(dev_comments, text)
+    # Get the entire comment block and split it into an array by newline characters
+    review_components <- strsplit((x$getElementText())[[1]], "\n")
+    
+    # The reviewer comment is always at index 5.
+    # If the length is 8 or less than there is no developer response.
+    # If the length is 9 or greater than there is a developer response at the
+    # index of 1 less than the length.
+    if(length(review_components[[1]]) <= 8) {
+      reviews_list <- append(reviews_list, review_components[[1]][5])
+      dev_responses <- append(dev_responses, "N/A")
+    } else if(length(review_components[[1]]) >= 9) {
+      reviews_list <- append(reviews_list, review_components[[1]][5])
+      dev_responses <- append(dev_responses, review_components[[1]][length(review_components[[1]]) - 1])
     }
   }
   
@@ -281,31 +270,11 @@ for(x in app_store_urls) {
   # Create a new data frame with the information scraped from this page
   page_df <- data.frame(App_Name = app_list, Platform = platform_list, 
                         Reviewer_Name = names_list, Review_Date = dates_list, 
-                        Review_Rating = ratings_list, Review_Comment = reviews_list)
+                        Review_Rating = ratings_list, Review_Comment = reviews_list, 
+                        Developer_Response = dev_responses)
   
   # Merge this page's data frame with the universal one
   apps_df <<- merge(apps_df, page_df, all = TRUE)
-  
-  # Check for developer comments and merge them if they exist
-  if(length(dev_comments) > 0) {
-    dev_dates <- vector()
-    dev_names <- vector()
-    dev_ratings <- vector()
-    dev_app <- vector()
-    dev_platform <- vector()
-    
-    for(i in 1:length(dev_comments)) {
-      dev_dates <- append(dev_dates, "N/A")
-      dev_names <- append(dev_names, "Developer")
-      dev_ratings <- append(dev_ratings, "N/A")
-      dev_app <- append(dev_app, app_name)
-      dev_platform <- append(dev_platform, "iOS")
-    }
-    
-    # Merge the developer comments into the apps data frame
-    dev_df <- data.frame(App_Name = dev_app, Platform = dev_platform, Reviewer_Name = dev_names, Review_Date = dev_dates, Review_Rating = dev_ratings, Review_Comment = dev_comments)
-    apps_df <<- merge(apps_df, dev_df, all = TRUE)
-  }
   
   # Close the session
   driver$close()
@@ -319,17 +288,4 @@ driver$closeall()
 driver$closeServer()
 
 # Close the Selenium server if it doesn't above
-close_selenium <- function() {
-  os_type <- .Platform$OS.type
-  if(os_type == "unix") {
-    pid <- as.numeric(system("pidof java", intern = TRUE))
-    if(pid > 1) {
-      command <- paste("kill -9", pid, sep = " ")
-      system(command)
-    }
-  } else if(os_type == "windows") {
-    command <- ("taskkill /f /t /im java.exe")
-    system(command)
-  }
-}
 close_selenium()
