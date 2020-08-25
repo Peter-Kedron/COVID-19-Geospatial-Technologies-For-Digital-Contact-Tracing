@@ -1,4 +1,4 @@
-FIPS,State,Abrv,App Planned,App Name,Technology,Developers
+FIPS,State,Abrv,Status ,Name,Technology,Developers
 1,Alabama,AL,Yes,Under Investigation,Bluetooth,Apple-Google
 17,Illinois,IL,Yes,Under Investigation,Under Investigation,Under Investigation
 38,North Dakota,ND,Yes,Care19,"GPS, Bluetooth",ProudCrowd
