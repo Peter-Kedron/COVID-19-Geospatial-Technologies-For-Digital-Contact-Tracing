@@ -6,10 +6,19 @@
     <description>Recent content on Digital Contact Tracing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Assessment Principles Published</title>
+      <link>/projectupdates/assessment-principles-published/</link>
+      <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/projectupdates/assessment-principles-published/</guid>
+      <description>We have shared the Assessment Principles we are using to review DCTT Apps along with an Overview of our Data Collection Plan on the Project GitHub Repository.</description>
+    </item>
     
     <item>
       <title>ASU Researchers Investigate COVID-19 Impacts</title>
@@ -47,7 +56,7 @@ Our work is funded by the U.S. National Science Foundation Award BCS-2032203. We
       <guid>/aboutteam/</guid>
       <description>Dr. Peter Kedron
 Assistant Professor of Geography and Urban Planning at Arizona State University
-Peter is a geographer and social scientist working at the intersection of spatial analysis, geographic information science (GIScience), and economic geography. His research program develops the methodological tools and analytical frameworks needed to uncover the causes of geographic phenomena, and, through the application of those innovations, he advances understandings of the interactions between humans and their natural and social environments.</description>
+Peter is a geographer and social scientist working at the intersection of spatial analysis,geographic information science (GIScience), and economic geography. His research programdevelops the methodological tools and analytical frameworks needed to uncover the causes ofgeographic phenomena, and, through the application of those innovations, he advancesunderstandings of the interactions between humans and their natural and social environments.</description>
     </item>
     
     <item>

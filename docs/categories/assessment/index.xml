@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assessment on Digital Contact Tracing</title>
+    <link>/categories/assessment/</link>
+    <description>Recent content in Assessment on Digital Contact Tracing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/assessment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Assessment Principles Published</title>
+      <link>/projectupdates/assessment-principles-published/</link>
+      <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/projectupdates/assessment-principles-published/</guid>
+      <description>We have shared the Assessment Principles we are using to review DCTT Apps along with an Overview of our Data Collection Plan on the Project GitHub Repository.</description>
+    </item>
+    
+  </channel>
+</rss>
