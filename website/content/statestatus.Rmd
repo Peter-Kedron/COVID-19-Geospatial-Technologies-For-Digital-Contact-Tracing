@@ -21,7 +21,7 @@ Data last updated: July 3rd, 2020.
 ```{r echo = FALSE, message = FALSE, warning = FALSE}
 library(DT)
 library(here)
-data_table = read.csv(here("data", "StateDCTApps-WebsiteData_YesOnly.csv"))
-datatable(data_table)
+data_table = read.csv(here("data", "State DCT Apps (Website Data).csv"))
+datatable(data_table, colnames = c("State", "__Ignored__", "__Ignored__", "App Planned", "App Released As Of Review", "If No, Last Mentioned", "App Name", "Technology Used", "Developers"), rownames = FALSE, options=list(columnDefs = list(list(visible=FALSE, targets=c(1, 2, 9, 10)))))
 ```
 
