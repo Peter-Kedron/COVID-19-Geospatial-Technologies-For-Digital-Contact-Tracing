@@ -47,7 +47,7 @@ map <- map %>% add_trace(name = "\n\n", geojson = wy_teton, z = ~App.Planned.Num
 map <- map %>% colorbar(title = list(text = "DCTT App Planned", font = list(size = 15)), tickmode = "array", tickvals = list(0.80, 0.50, 0.20), ticktext = list("Yes, Released", "Yes, Not Released", "No"), ticks = "", thickness = 15, len = 0.20, x = 0, y = 1)
 
 # Have to use HTML to add a subtitle in plotly
-map <- map %>% layout(geo = map_settings, title = list(text = paste0("COVID-19 Digital Contact Tracing Technology (DCTT) Status", "<br>", "<sup>", "As of August 4th, 2020", "</sup>")))
+map <- map %>% layout(geo = map_settings, title = list(text = paste0("COVID-19 Digital Contact Tracing Technology (DCTT) Status", "<br>", "<sup>", "As of September 7th, 2020", "</sup>")))
 
 # Modify the modebar to remove unnecessary buttons
 map <- map %>% config(displaylogo = FALSE, modeBarButtonsToRemove = c("lasso2d", "select2d", "pan2d", "hoverClosestGeo"))
