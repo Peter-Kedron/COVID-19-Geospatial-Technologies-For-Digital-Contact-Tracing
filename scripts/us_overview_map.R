@@ -32,17 +32,17 @@ state_data$App.Planned.Num <- ifelse(state_data$App.Released.As.Of.Review.Date =
 map_settings <- list(scope = 'usa', projection = list(type = 'albers usa'), showlakes = FALSE)
 
 # Use this color scale for the map
-color_scale <- data.frame(z=c(0, 0.33 , 0.33, 0.66, 0.66, 1), col=c("#f8f8f8", "#f8f8f8", "#E3B022", "#E3B022", "#800000", "#800000"))
+color_scale <- data.frame(z = c(0, 0.33 , 0.33, 0.66, 0.66, 1), col = c("#f8f8f8", "#f8f8f8", "#E3B022", "#E3B022", "#800000", "#800000"))
 
 # Create the map, add one trace for the states and others for county apps, set the colorbar, and set the title.
 map <- plot_geo(state_data, name = "\n", colorscale = color_scale, width = 950)
 
-map <- map %>% add_trace(locationmode = "USA-states", z = ~App.Planned.Num, locations = ~Abbreviation, hovertemplate = ~map_hover_text, color = ~App.Planned.Num, colors = c("#f8f8f8","#800000"), showscale = TRUE)
-map <- map %>% add_trace(name = "\n\n", geojson = fl_broward, z = ~App.Planned.Num[10], locations = "12011", hovertemplate = broward_hover, colors = c("#f8f8f8","#800000"), showscale = FALSE, color = I("White"))
-map <- map %>% add_trace(name = "\n\n", geojson = fl_miami, z = ~App.Planned.Num[11], locations = "12086", hovertemplate = miami_hover, colors = c("#f8f8f8","#800000"), showscale = FALSE, color = I("White"))
-map <- map %>% add_trace(name = "\n\n", geojson = fl_palmbeach, z = ~App.Planned.Num[12], locations = "12099", hovertemplate = palmbeach_hover, colors = c("#f8f8f8","#800000"), showscale = FALSE, color = I("White"))
-map <- map %>% add_trace(name = "\n\n", geojson = dc, z = ~App.Planned.Num[51], locations = "11001", hovertemplate = dc_hover, colors = c("#f8f8f8","#800000"), showscale = FALSE, color = I("White"))
-map <- map %>% add_trace(name = "\n\n", geojson = wy_teton, z = ~App.Planned.Num[55], locations = "56039", hovertemplate = teton_hover, colors = c("#f8f8f8","#800000"), showscale = FALSE, color = I("White"))
+map <- map %>% add_trace(locationmode = "USA-states", z = ~App.Planned.Num, locations = ~Abbreviation, hovertemplate = ~map_hover_text, color = ~App.Planned.Num, colors = c("#f8f8f8", "#E3B022", "#800000"), showscale = TRUE)
+map <- map %>% add_trace(name = "\n\n", geojson = fl_broward, z = ~App.Planned.Num, locations = "12011", hovertemplate = broward_hover, colors = c("#f8f8f8", "#E3B022", "#800000"), showscale = FALSE, color = I("White"))
+map <- map %>% add_trace(name = "\n\n", geojson = fl_miami, z = ~App.Planned.Num, locations = "12086", hovertemplate = miami_hover, colors = c("#f8f8f8", "#E3B022", "#800000"), showscale = FALSE, color = I("White"))
+map <- map %>% add_trace(name = "\n\n", geojson = fl_palmbeach, z = ~App.Planned.Num, locations = "12099", hovertemplate = palmbeach_hover, colors = c("#f8f8f8", "#E3B022", "#800000"), showscale = FALSE, color = I("White"))
+map <- map %>% add_trace(name = "\n\n", geojson = dc, z = ~App.Planned.Num, locations = "11001", hovertemplate = dc_hover, colors = c("#f8f8f8", "#E3B022", "#800000"), showscale = FALSE, color = I("White"))
+map <- map %>% add_trace(name = "\n\n", geojson = wy_teton, z = ~App.Planned.Num, locations = "56039", hovertemplate = teton_hover, colors = c("#f8f8f8", "#E3B022", "#800000"), showscale = FALSE, color = I("White"))
 
 map <- map %>% colorbar(title = list(text = "DCTT App Planned", font = list(size = 15)), tickmode = "array", tickvals = list(0.80, 0.50, 0.20), ticktext = list("Yes, Released", "Yes, Not Released", "No"), ticks = "", thickness = 15, len = 0.20, x = 0, y = 1)
 
