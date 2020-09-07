@@ -8,9 +8,9 @@ Colorado,CO,2020-09-04,No,,,,,,,https://www.idropnews.com/news/there-are-now-20-
 Connecticut,CT,2020-09-04,No,,,,,,,https://www.idropnews.com/news/there-are-now-20-us-states-exploring-apple-google-exposure-notification-apps-as-google-announces-improvements-to-the-api/140471/
 Delaware,DE,2020-09-04,No,,,,,,,https://www.idropnews.com/news/there-are-now-20-us-states-exploring-apple-google-exposure-notification-apps-as-google-announces-improvements-to-the-api/140471/
 Florida,FL,2020-09-04,No,,,,,,,
-Florida (Broward),FL,2020-09-04,Rumored,Yes,,CombatCOVID PBC,Bluetooth,Shield Group Technologies,County Wide App (Negotiations),https://www.youtube.com/watch?v=UAH6PML7MJg
-Florida (Miami-Dade),FL,2020-09-04,Yes,Yes,,CombatCOVID PBC,Bluetooth,Shield Group Technologies,County Wide App,https://www.youtube.com/watch?v=UAH6PML7MJg
-Florida (Palm Beach),FL,2020-09-04,Yes,Yes,,CombatCOVID PBC,Bluetooth,Shield Group Technologies,County Wide App,https://bocanewsnow.com/2020/08/03/palm-beach-county-covid-tracking-app-is-flawed-potentially-useless/
+Florida (Broward),FL-B,2020-09-04,Rumored,Yes,,CombatCOVID PBC,Bluetooth,Shield Group Technologies,County Wide App (Negotiations),https://www.youtube.com/watch?v=UAH6PML7MJg
+Florida (Miami-Dade),FL-M,2020-09-04,Yes,Yes,,CombatCOVID PBC,Bluetooth,Shield Group Technologies,County Wide App,https://www.youtube.com/watch?v=UAH6PML7MJg
+Florida (Palm Beach),FL-PB,2020-09-04,Yes,Yes,,CombatCOVID PBC,Bluetooth,Shield Group Technologies,County Wide App,https://bocanewsnow.com/2020/08/03/palm-beach-county-covid-tracking-app-is-flawed-potentially-useless/
 Georgia,GA,2020-09-04,No,,,,,,,https://www.idropnews.com/news/there-are-now-20-us-states-exploring-apple-google-exposure-notification-apps-as-google-announces-improvements-to-the-api/140471/
 Hawaii,HI,2020-09-04,Yes,No,2020-09-01,"AlohaSafe Story, AlohaSafe Alert","GPS, Bluetooth","AlohaTrace, Hawaii Department of Health",Two Apps Being Developed,"https://www.hawaiibusiness.com/new-contract-tracing-apps/, https://www.asiaone.com/digital/google-and-apple-roll-out-built-covid-19-exposure-notifications-phones , "
 Idaho,ID,2020-09-04,No,,,,,,,https://www.idropnews.com/news/there-are-now-20-us-states-exploring-apple-google-exposure-notification-apps-as-google-announces-improvements-to-the-api/140471/
@@ -53,4 +53,4 @@ Washington DC,DC,2020-09-04,Yes,No,2020-09-01,N/A,Bluetooth,Apple/Google,,https:
 West Virginia,WV,2020-09-04,No,,,,,,,
 Wisconsin,WI,2020-09-04,No,,,,,,,
 Wyoming,WY,2020-09-04,Yes,Yes,,Care19 Alert,Bluetooth,"Proud Crowd, Apple/Google",Switched from Care 19 Diaries,https://cowboystatedaily.com/2020/08/14/wyoming-launches-coronavirus-exposure-app/
-Wyonming (Teton County),WY,2020-09-04,Yes,Yes,,PathCheck SafePlaces,GPS,"Path Check, Inc.",,
+Wyonming (Teton County),WY-T,2020-09-04,Yes,Yes,,PathCheck SafePlaces,GPS,"Path Check, Inc.",,
