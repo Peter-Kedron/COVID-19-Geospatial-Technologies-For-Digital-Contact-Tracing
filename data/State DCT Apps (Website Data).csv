@@ -4,7 +4,7 @@ Alaska,AK,2020-09-04,No,,,,,,,
 Arizona,AZ,2020-09-04,Yes,Yes,,Covid Watch Arizona,Bluetooth,"Arizona Department of Health Services, Covid Watch, University of Arizona, Apple/Google",https://9to5mac.com/2020/08/24/covid-19-exposure-notification-api-states/,"https://www.forbes.com/sites/zakdoffman/2020/08/22/apple-iphone-google-android-coronavirus-smartphone-tracking-apps-update-release/#1eedd5e01739, https://www.komando.com/coronavirus/covid-19-tracking-apps/751623/"
 Arkansas,AR,2020-09-04,No,,,,,,,
 California,CA,2020-09-04,No,,,,,,,
-Colorado,CO,2020-09-04,No,,,,,,,https://www.idropnews.com/news/there-are-now-20-us-states-exploring-apple-google-exposure-notification-apps-as-google-announces-improvements-to-the-api/140471/
+Colorado,CO,2020-09-04,Yes,No,2020-09-09,EN Express,Bluetooth ,Apple/Google,https://gazette.com/health/colorado-could-be-first-in-us-to-launch-coronavirus-contact-tracing-app-with-apple-google/article_61c537de-f2c0-11ea-938e-eff56cac73fa.html,https://www.idropnews.com/news/there-are-now-20-us-states-exploring-apple-google-exposure-notification-apps-as-google-announces-improvements-to-the-api/140471/
 Connecticut,CT,2020-09-04,No,,,,,,,https://www.idropnews.com/news/there-are-now-20-us-states-exploring-apple-google-exposure-notification-apps-as-google-announces-improvements-to-the-api/140471/
 Delaware,DE,2020-09-04,No,,,,,,,https://www.idropnews.com/news/there-are-now-20-us-states-exploring-apple-google-exposure-notification-apps-as-google-announces-improvements-to-the-api/140471/
 Florida,FL,2020-09-04,No,,,,,,,
