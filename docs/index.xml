@@ -6,10 +6,20 @@
     <description>Recent content on Digital Contact Tracing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>September Update to Status of State DCTTs</title>
+      <link>/projectupdates/september-update-to-status-of-state-dctts/</link>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/projectupdates/september-update-to-status-of-state-dctts/</guid>
+      <description>Since our previous update, we have seen the number of states who have either released or are planning to release a digital contract tracing (DCT) app increase from 7 to 17. A common trend has been the increase in the number of Bluetooth-based apps.
+Even states that had previously used GPS-based DCT apps (e.g. North Dakota and Wyoming) are switching to Bluetooth, citing privacy concerns. It was also recently announced that Apple and Google were going to streamline their digital tracking framework, making it easier for states to develop their own app.</description>
+    </item>
     
     <item>
       <title>Assessment Principles Published</title>
