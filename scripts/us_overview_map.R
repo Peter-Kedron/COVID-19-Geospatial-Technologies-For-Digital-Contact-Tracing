@@ -5,7 +5,7 @@ library(plotly)
 library(here)
 
 # Read the state status data
-state_data <- read.csv(here("data", "State DCT Apps (Website Data).csv"))
+state_data <- read.csv(here("data", "State-DCTT-Apps-Webmap-Data.csv"))
 
 # Read the status data for the county apps
 fl_broward <- jsonlite::fromJSON(here("data", "fl_broward.json"))
@@ -15,7 +15,7 @@ dc <- jsonlite::fromJSON(here("data", "dc.json"))
 wy_teton <- jsonlite::fromJSON(here("data", "wy_teton.json"))
 
 # Generate the hover text for all states
-state_data$map_hover_text <- with(state_data, paste("<b>", State, "</b>", "<br>", "App Planned:", App.Planned, "<br>", "App Name:", App.Name, "<br>", "Technology:", Technology.Used))
+state_data$map_hover_text <- with(state_data, paste("<b>", State, "</b>", "<br>", "App Planned:", App.Planned, "<br>", "App Name:", App.Name, "<br>", "Technology:", Technology))
 
 # Generate the hover text for the county apps
 broward_hover <- state_data$map_hover_text[10]
@@ -25,7 +25,7 @@ dc_hover <- state_data$map_hover_text[51]
 teton_hover <- state_data$map_hover_text[55]
 
 # Generate the new App.Planned.Num column dummy column to shade the choropleth map
-state_data$App.Planned.Num <- ifelse(state_data$App.Planned == "Yes" | state_data$App.Planned == "Statewide App" | state_data$App.Planned == "Countywide App", 0.5, 0)
+state_data$App.Planned.Num <- ifelse(state_data$App.Planned == "Yes" | state_data$App.Planned == "Planned" | state_data$App.Planned == "Countywide App", 0.5, 0)
 state_data$App.Planned.Num <- ifelse(state_data$App.Released.As.Of.Review.Date == "Yes", 1, state_data$App.Planned.Num)
 
 # Set map settings
@@ -47,7 +47,7 @@ map <- map %>% add_trace(name = "\n\n", geojson = wy_teton, z = ~App.Planned.Num
 map <- map %>% colorbar(title = list(text = "DCTT App Planned", font = list(size = 15)), tickmode = "array", tickvals = list(0.80, 0.50, 0.20), ticktext = list("Yes, Released", "Yes, Not Released", "No"), ticks = "", thickness = 15, len = 0.20, x = 0, y = 1)
 
 # Have to use HTML to add a subtitle in plotly
-map <- map %>% layout(geo = map_settings, title = list(text = paste0("COVID-19 Digital Contact Tracing Technology (DCTT) Status", "<br>", "<sup>", "As of September 7th, 2020", "</sup>")))
+map <- map %>% layout(geo = map_settings, title = list(text = paste0("COVID-19 Digital Contact Tracing Technology (DCTT) Status", "<br>", "<sup>", "As of January 10, 2021", "</sup>")))
 
 # Modify the modebar to remove unnecessary buttons
 map <- map %>% config(displaylogo = FALSE, modeBarButtonsToRemove = c("lasso2d", "select2d", "pan2d", "hoverClosestGeo"))
