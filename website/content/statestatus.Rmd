@@ -16,13 +16,13 @@ Our project team is tracking how states are using digital contact tracing techno
 ### States Currently Pursuing Digital Contact Tracing Technologies
 The following states are currently developing or using digital contact tracing technologies. A complete list of the plans and activities of all 50 states is available through the Project GitHub Repository.
 
-Data last updated: September 7th, 2020.
+Data last updated: January 10th, 2021.
 
 ```{r echo = FALSE, message = FALSE, warning = FALSE}
 library(DT)
 library(here)
-data_table = read.csv(here("data", "State DCT Apps (Website Data).csv"))
+data_table = read.csv(here("data", "State-DCTT-Apps-Webmap-Data.csv"))
 data_table_apps <- data_table[data_table$App.Planned != "No", ]
-datatable(data_table_apps, colnames = c("State", "__Ignored__", "__Ignored__", "App Planned", "App Released As Of Review", "If No, Last Mentioned", "App Name", "Technology Used", "Developers"), rownames = FALSE, options=list(columnDefs = list(list(visible=FALSE, targets=c(1, 2, 9, 10)))))
+datatable(data_table_apps, colnames = c("__Ignored__", "State", "__Ignored__", "Review Date", "App Planned", "App Released As Of Review Date", "App Name", "Technology", "App Developers", "URL"), rownames = FALSE,  options=list(columnDefs = list(list(visible=FALSE, targets=c(0, 2)))))
 ```
 
