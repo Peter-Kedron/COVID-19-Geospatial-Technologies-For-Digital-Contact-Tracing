@@ -21,8 +21,8 @@ Data last updated: January 10th, 2021.
 ```{r echo = FALSE, message = FALSE, warning = FALSE}
 library(DT)
 library(here)
-data_table = read.csv(here("data", "State-DCTT-Apps-Webmap-Data.csv"))
+data_table = read.csv(here("data", "State-DCT-Apps-Website-Data.csv"))
 data_table_apps <- data_table[data_table$App.Planned != "No", ]
-datatable(data_table_apps, colnames = c("__Ignored__", "State", "__Ignored__", "Review Date", "App Planned", "App Released As Of Review Date", "App Name", "Technology", "App Developers", "URL"), rownames = FALSE,  options=list(columnDefs = list(list(visible=FALSE, targets=c(0, 2)))))
+datatable(data_table_apps, colnames = c("State", "__Ignored__", "Review Date", "App Planned", "App Released As Of Review Date", "App Name", "Technology Used", "Google-Apple Technology?", "App Developers", "App URL"), rownames = FALSE, options = list(columnDefs = list(list(visible=FALSE, targets=c(1)))))
 ```
 
