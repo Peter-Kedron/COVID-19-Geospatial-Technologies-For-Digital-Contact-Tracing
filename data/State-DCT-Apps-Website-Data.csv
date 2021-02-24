@@ -1,54 +1,52 @@
-State,Review Date,App Planned,App Released As Of Review Date,App Name,Technology Used,Google-Apple Technology?,App Developers,App URL
-Alabama,2021-02-15,Yes,Yes,GuideSafe,Bluetooth,Yes,"Alabama Department of Public Health, University of Alabama Birmingham, MotionMobs",https://www.guidesafe.org/exposure-notification-app/
-Alaska,2021-02-15,No,,,,,,
-Arizona,2021-02-15,Yes,Limited,Covid Watch Arizona,Bluetooth,No,"Arizona Department of Health Services, Covid Watch, University of Arizona",https://covid19.arizona.edu/covidwatch
-Arkansas,2021-02-15,No,,,,,,
-California,2021-02-15,Yes,Yes,CA Notify,Bluetooth ,Yes,"California Department of Technology, California Department of Public Health, the University of California",https://canotify.uchealth.edu/UCBerkeley/
-Colorado,2021-02-15,Yes,Yes,CO Exposure Notification,Bluetooth ,Yes,Colorado Department of Public Health and Environment,https://covid19.colorado.gov/Exposure-notifications
-Connecticut,2021-02-15,Yes,Yes,COVID Alert CT,Bluetooth ,Yes,Connecticut Department of Public Health,https://www.nbcconnecticut.com/news/local/it-security-expert-weighs-in-on-states-covid-19-app/2362151/
-Delaware,2021-02-15,Yes,Yes,DE COVID Alert,Bluetooth ,Yes,Division of Public Health of the State of Delaware,https://coronavirus.delaware.gov/covidalert/
-Florida,2021-02-15,No,,,,,,
-Georgia,2021-02-15,No,,,,,,
-Hawaii,2021-02-15,Yes,Yes,AlohaSafe Alert,Bluetooth,Yes,"AlohaTrace, Hawaii Department of Health, Google ",https://www.wearealohasafe.org/
-Idaho,2021-02-15,No,,,,,,
-Illinois,2021-02-15,No,,,,,,
-Indiana,2021-02-15,No,,,,,,
-Iowa,2021-02-15,No,,,,,,
-Kansas,2021-02-15,No,,,,,,
-Kentucky,2021-02-15,No,,,,,,
-Louisiana,2021-02-15,No,,,,,,
-Maine,2021-02-15,No,,,,,,
-Maryland,2021-02-15,Yes,Yes,MD COVID,Bluetooth,Yes,Maryland Department of Health,https://play.google.com/store/apps/details?id=gov.md.covid19.exposurenotifications
-Massachusetts,2021-02-15,No,,,,,,
-Michigan,2021-02-15,Yes,Yes,MI COVID Alert,Bluetooth,Yes,"Michigan Department of Health and Human Services (MDHHS),  SpringML",https://play.google.com/store/apps/details?id=gov.michigan.MiCovidExposure
-Minnesota,2021-02-15,Yes,Yes,COVIDaware MN,Bluetooth,Yes,"PathCheck Foundation, State of Minnesota",https://covidawaremn.com/
-Mississippi,2021-02-15,No,,,,,,
-Missouri,2021-02-15,No,,,,,,
-Montana,2021-02-15,No,,,,,,
-Nebraska,2021-02-15,No,,,,,,
-Nevada,2021-02-15,Yes,Yes,Covid Trace Nevada,Bluetooth,Yes,"Nevada's Department of Health and Human Services, PlayStudios",https://nvhealthresponse.nv.gov/covidtrace/
-New Hampshire,2021-02-15,No,,,,,,
-New Jersey,2021-02-15,Yes,Yes,COVID Alert NJ,Bluetooth,Yes,New Jersey Department of Health,https://covid19.nj.gov/pages/app?gclid=CjwKCAiAtK79BRAIEiwA4OskBgGr-5euu1lpboYiNsVwaf3cbny942LxbkyizFtdNyzIaXf2EyAeCBoC6mYQAvD_BwE
-New Mexico,2021-02-15,No,,,,,,
-New York,2021-02-15,Yes,Yes,COVID Alert NY,Bluetooth,Yes,NYS Department of Health,https://coronavirus.health.ny.gov/covid-alert-ny
-North Carolina,2021-02-15,Yes,Yes,SlowCOVIDNC,Bluetooth,Yes,North Carolina Department of Health and Human Services,https://covid19.ncdhhs.gov/slowcovidnc
-North Dakota,2021-02-15,Yes,Yes,Care 19 Alert,Bluetooth,No,Proud Crowd,https://ndresponse.gov/covid-19-resources/care19
-Ohio,2021-02-15,No,,,,,,
-Oklahoma,2021-02-15,No,,,,,,
-Oregon,2021-02-15,Yes,Yes,Oregon Exposure Notifcations,Bluetooth,Yes,Oregon Health Authority,https://covid.oregonstate.edu/exposure
-Pennsylvania,2021-02-15,Yes,Yes,COVID Alert PA,Bluetooth,Yes,"MIT, University of Pennsylvania",https://www.health.pa.gov/topics/disease/coronavirus/Pages/COVIDAlert.aspx
-Rhode Island,2021-02-15,Yes,Yes,CRUSH COVID RI,"GPS, Bluetooth",No,"Rhode Island Department of Health, InfoSys",https://health.ri.gov/covid/crush/
-South Carolina,2021-02-15,Yes,Limited,South Carolina Safer Together,Bluetooth,Yes,South Carolina Department of Health and Environmental Control,https://play.google.com/store/apps/details?id=musc.exposurenotification
-South Dakota,2021-02-15,Yes,Yes,Care 19 Diaries,GPS,No,Proud Crowd,https://covid.sd.gov/care19app.aspx
-Tennessee,2021-02-15,No,,,,,,
-Texas,2021-02-15,No,,,,,,
-Utah,2021-02-15,No,,,,,,
-Vermont,2021-02-15,No,,,,,,
-Virginia,2021-02-15,Yes,Yes,COVIDWISE,Bluetooth,Yes,"Virginia Department of Health, Apple-Google ENS",https://www.vdh.virginia.gov/covidwise/
-Washington,2021-02-15,Yes,Yes,WA Notify,Bluetooth,Yes,Washington State and Department of Health (DOH),https://www.doh.wa.gov/Emergencies/COVID19/WANotify
-West Virginia,2021-02-15,No,,,,,,
-Wisconsin,2021-02-15,No,,,,,,
-Wyoming,2021-02-15,Yes,Yes,Care 19 Alert,Bluetooth,No,Proud Crowd,https://play.google.com/store/apps/details?id=com.proudcrowd.exposure
-District of Columbia,2021-02-15,Yes,Yes,DC CAN,Bluetooth,Yes,Department of Health (DC Health),https://coronavirus.dc.gov/dccan
-,,,,,,,,
-,,,,,,24,,
+State,Abbreviation,Review Date,App Planned,App Released As Of Review Date,App Name,Technology Used,Google-Apple Technology?,App Developers,App URL
+Alabama,AL,2021-02-15,Yes,Yes,GuideSafe,Bluetooth,Yes,"Alabama Department of Public Health, University of Alabama Birmingham, MotionMobs",https://www.guidesafe.org/exposure-notification-app/
+Alaska,AK,2021-02-15,No,,,,,,
+Arizona,AZ,2021-02-15,Yes,Limited,Covid Watch Arizona,Bluetooth,No,"Arizona Department of Health Services, Covid Watch, University of Arizona",https://covid19.arizona.edu/covidwatch
+Arkansas,AR,2021-02-15,No,,,,,,
+California,CA,2021-02-15,Yes,Yes,CA Notify,Bluetooth ,Yes,"California Department of Technology, California Department of Public Health, the University of California",https://canotify.uchealth.edu/UCBerkeley/
+Colorado,CO,2021-02-15,Yes,Yes,CO Exposure Notification,Bluetooth ,Yes,Colorado Department of Public Health and Environment,https://covid19.colorado.gov/Exposure-notifications
+Connecticut,CT,2021-02-15,Yes,Yes,COVID Alert CT,Bluetooth ,Yes,Connecticut Department of Public Health,https://www.nbcconnecticut.com/news/local/it-security-expert-weighs-in-on-states-covid-19-app/2362151/
+Delaware,DE,2021-02-15,Yes,Yes,DE COVID Alert,Bluetooth ,Yes,Division of Public Health of the State of Delaware,https://coronavirus.delaware.gov/covidalert/
+Florida,FL,2021-02-15,No,,,,,,
+Georgia,GA,2021-02-15,No,,,,,,
+Hawaii,HI,2021-02-15,Yes,Yes,AlohaSafe Alert,Bluetooth,Yes,"AlohaTrace, Hawaii Department of Health, Google ",https://www.wearealohasafe.org/
+Idaho,ID,2021-02-15,No,,,,,,
+Illinois,IL,2021-02-15,No,,,,,,
+Indiana,IN,2021-02-15,No,,,,,,
+Iowa,IA,2021-02-15,No,,,,,,
+Kansas,KS,2021-02-15,No,,,,,,
+Kentucky,KY,2021-02-15,No,,,,,,
+Louisiana,LA,2021-02-15,No,,,,,,
+Maine,ME,2021-02-15,No,,,,,,
+Maryland,MD,2021-02-15,Yes,Yes,MD COVID,Bluetooth,Yes,Maryland Department of Health,https://play.google.com/store/apps/details?id=gov.md.covid19.exposurenotifications
+Massachusetts,MA,2021-02-15,No,,,,,,
+Michigan,MI,2021-02-15,Yes,Yes,MI COVID Alert,Bluetooth,Yes,"Michigan Department of Health and Human Services (MDHHS),  SpringML",https://play.google.com/store/apps/details?id=gov.michigan.MiCovidExposure
+Minnesota,MN,2021-02-15,Yes,Yes,COVIDaware MN,Bluetooth,Yes,"PathCheck Foundation, State of Minnesota",https://covidawaremn.com/
+Mississippi,MS,2021-02-15,No,,,,,,
+Missouri,MO,2021-02-15,No,,,,,,
+Montana,MT,2021-02-15,No,,,,,,
+Nebraska,NE,2021-02-15,No,,,,,,
+Nevada,NV,2021-02-15,Yes,Yes,Covid Trace Nevada,Bluetooth,Yes,"Nevada's Department of Health and Human Services, PlayStudios",https://nvhealthresponse.nv.gov/covidtrace/
+New Hampshire,NH,2021-02-15,No,,,,,,
+New Jersey,NJ,2021-02-15,Yes,Yes,COVID Alert NJ,Bluetooth,Yes,New Jersey Department of Health,https://covid19.nj.gov/pages/app?gclid=CjwKCAiAtK79BRAIEiwA4OskBgGr-5euu1lpboYiNsVwaf3cbny942LxbkyizFtdNyzIaXf2EyAeCBoC6mYQAvD_BwE
+New Mexico,NM,2021-02-15,No,,,,,,
+New York,NY,2021-02-15,Yes,Yes,COVID Alert NY,Bluetooth,Yes,NYS Department of Health,https://coronavirus.health.ny.gov/covid-alert-ny
+North Carolina,NC,2021-02-15,Yes,Yes,SlowCOVIDNC,Bluetooth,Yes,North Carolina Department of Health and Human Services,https://covid19.ncdhhs.gov/slowcovidnc
+North Dakota,ND,2021-02-15,Yes,Yes,Care 19 Alert,Bluetooth,No,Proud Crowd,https://ndresponse.gov/covid-19-resources/care19
+Ohio,OH,2021-02-15,No,,,,,,
+Oklahoma,OK,2021-02-15,No,,,,,,
+Oregon,OR,2021-02-15,Yes,Yes,Oregon Exposure Notifcations,Bluetooth,Yes,Oregon Health Authority,https://covid.oregonstate.edu/exposure
+Pennsylvania,PA,2021-02-15,Yes,Yes,COVID Alert PA,Bluetooth,Yes,"MIT, University of Pennsylvania",https://www.health.pa.gov/topics/disease/coronavirus/Pages/COVIDAlert.aspx
+Rhode Island,RI,2021-02-15,Yes,Yes,CRUSH COVID RI,"GPS, Bluetooth",No,"Rhode Island Department of Health, InfoSys",https://health.ri.gov/covid/crush/
+South Carolina,SC,2021-02-15,Yes,Limited,South Carolina Safer Together,Bluetooth,Yes,South Carolina Department of Health and Environmental Control,https://play.google.com/store/apps/details?id=musc.exposurenotification
+South Dakota,SD,2021-02-15,Yes,Yes,Care 19 Diaries,GPS,No,Proud Crowd,https://covid.sd.gov/care19app.aspx
+Tennessee,TN,2021-02-15,No,,,,,,
+Texas,TX,2021-02-15,No,,,,,,
+Utah,UT,2021-02-15,No,,,,,,
+Vermont,VT,2021-02-15,No,,,,,,
+Virginia,VA,2021-02-15,Yes,Yes,COVIDWISE,Bluetooth,Yes,"Virginia Department of Health, Apple-Google ENS",https://www.vdh.virginia.gov/covidwise/
+Washington,WA,2021-02-15,Yes,Yes,WA Notify,Bluetooth,Yes,Washington State and Department of Health (DOH),https://www.doh.wa.gov/Emergencies/COVID19/WANotify
+West Virginia,WV,2021-02-15,No,,,,,,
+Wisconsin,WI,2021-02-15,No,,,,,,
+Wyoming,WY,2021-02-15,Yes,Yes,Care 19 Alert,Bluetooth,No,Proud Crowd,https://play.google.com/store/apps/details?id=com.proudcrowd.exposure
+District of Columbia,DC,2021-02-15,Yes,Yes,DC CAN,Bluetooth,Yes,Department of Health (DC Health),https://coronavirus.dc.gov/dccan
