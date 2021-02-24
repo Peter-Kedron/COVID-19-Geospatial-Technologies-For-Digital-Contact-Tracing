@@ -16,7 +16,7 @@ Our project team is tracking how states are using digital contact tracing techno
 ### States Currently Pursuing Digital Contact Tracing Technologies
 The following states are currently developing or using digital contact tracing technologies. A complete list of the plans and activities of all 50 states is available through the Project GitHub Repository.
 
-Data last updated: January 10th, 2021.
+Data last updated: February 15th, 2021.
 
 ```{r echo = FALSE, message = FALSE, warning = FALSE}
 library(DT)
